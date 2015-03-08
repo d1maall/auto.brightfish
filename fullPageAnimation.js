@@ -187,10 +187,10 @@ $(document).ready(function() {
     });
 
 
-    $('body').on('click','#test-popup-no', function(){
+    /*$('body').on('click','#test-popup-no', function(){
         alert('Ваш запрос был отправлен! Мы скоро свяжемся с вами.');
         return true;
-    });
+    });*/
 
 });
 
@@ -215,6 +215,7 @@ function send() {
     //alert('Имя: ' + name + '\n' + 'Почта: ' + email + '\n' + 'Телефон: ' + phone );
     //немножко говнокода
 
+    alert("Ваша заявка получена. Мы скоро свяжемся с вами.")
     $('.name').val('');
     $('.email').val('');
     $('.phone').val('');
