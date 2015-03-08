@@ -214,7 +214,12 @@ function send() {
     }
     //alert('Имя: ' + name + '\n' + 'Почта: ' + email + '\n' + 'Телефон: ' + phone );
     //немножко говнокода
-    document.getElementById("form1").reset();
+
+    $('.name').val('');
+    $('.email').val('');
+    $('.phone').val('');
+
+    /*document.getElementById("form1").reset();
     document.getElementById("form2").reset();
     document.getElementById("form3").reset();
     document.getElementById("form4").reset();
@@ -223,7 +228,8 @@ function send() {
     document.getElementById("form7").reset();
     document.getElementById("form8").reset();
     document.getElementById("form9").reset();
-    document.getElementById("form10").reset();
+    document.getElementById("form10").reset();*/
+
     $.magnificPopup.close();
 
 }
