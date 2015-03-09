@@ -54,10 +54,6 @@
         background-image: url(./img/mobail-480/right.jpg);
 
     }
-    .navbar{
-        display: none;
-    }
-
 
 }
 
@@ -116,9 +112,6 @@
 
         background-image: url(./img/board-768/right.jpg);
 
-    }
-    .navbar{
-        display: none;
     }
 
 }

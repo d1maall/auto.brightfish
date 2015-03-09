@@ -123,7 +123,7 @@ $(document).ready(function() {
 
     $('.price1').magnificPopup({
         items: {
-            src: './img/price/auto-1.png'
+            src: './img/price/full/auto-1.png'
         },
         type: 'image',
         closeOnContentClick: 'true',
@@ -136,7 +136,7 @@ $(document).ready(function() {
 
     $('.price2').magnificPopup({
         items: {
-            src: './img/price/auto-2.png'
+            src: './img/price/full/auto-2.png'
         },
         type: 'image',
         closeOnContentClick: 'true',
@@ -149,7 +149,7 @@ $(document).ready(function() {
 
     $('.price3').magnificPopup({
         items: {
-            src: './img/price/auto-3.png'
+            src: './img/price/full/auto-3.png'
         },
         type: 'image',
         closeOnContentClick: 'true',
@@ -162,7 +162,7 @@ $(document).ready(function() {
 
     $('.price4').magnificPopup({
         items: {
-            src: './img/price/auto-4.png'
+            src: './img/price/full/auto-4.png'
         },
         type: 'image',
         closeOnContentClick: 'true',
@@ -175,7 +175,7 @@ $(document).ready(function() {
 
     $('.price5').magnificPopup({
         items: {
-            src: './img/price/auto-5.png'
+            src: './img/price/full/auto-5.png'
         },
         type: 'image',
         closeOnContentClick: 'true',
@@ -188,7 +188,7 @@ $(document).ready(function() {
 
     $('.price6').magnificPopup({
         items: {
-            src: './img/price/auto-6.png'
+            src: './img/price/full/auto-6.png'
         },
         type: 'image',
         closeOnContentClick: 'true',
@@ -201,7 +201,7 @@ $(document).ready(function() {
 
     $('.price7').magnificPopup({
         items: {
-            src: './img/price/auto-7.png'
+            src: './img/price/full/auto-7.png'
         },
         type: 'image',
         closeOnContentClick: 'true',
@@ -214,7 +214,7 @@ $(document).ready(function() {
 
     $('.price8').magnificPopup({
         items: {
-            src: './img/price/auto-8.png'
+            src: './img/price/full/auto-8.png'
         },
         type: 'image',
         closeOnContentClick: 'true',
