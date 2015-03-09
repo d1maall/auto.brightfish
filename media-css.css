@@ -1,0 +1,172 @@
+
+
+
+@media only screen and (min-width: 480px) {
+
+    /*Здесь стили более разумных, но все еще мобильных устройств. Android, iPhone  и так далее.*/
+    .bgpic {
+        background-image: url(./img/mobail-480/shelby.jpg);
+
+    }
+
+    .page3bg {
+
+        background-image: url(./img/mobail-480/splash3.jpg);
+
+    }
+    .page4bg {
+
+        background-image: url(./img/mobail-480/splash2.jpg);
+
+    }
+    .page5bg {
+
+        background-image: url(./img/mobail-480/colorsplash.jpg);
+
+
+    }
+    .page6bg {
+
+        background-image: url(./img/mobail-480/bumbum2.jpg);
+    }
+    .page7bg {
+
+        background-image: url(./img/mobail-480/drops.jpg);
+
+    }
+    .page8bg {
+
+        background-image: url(./img/mobail-480/splash4.jpg);
+
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    /*Планшеты в режиме portrait.*/
+    .bgpic {
+
+
+        background-image: url(./img/board-768/shelby.jpg);
+
+
+    }
+
+    .page3bg {
+
+        background-image: url(./img/board-768/splash3.jpg);
+
+    }
+    .page4bg {
+
+        background-image: url(./img/board-768/splash2.jpg);
+
+    }
+    .page5bg {
+
+        background-image: url(./img/board-768/colorsplash.jpg);
+
+    }
+    .page6bg {
+
+        background-image: url(./img/board-768/bumbum2.jpg);
+
+    }
+    .page7bg {
+
+        background-image: url(./img/board-768/drops.jpg);
+
+    }
+    .page8bg {
+
+        background-image: url(./img/board-768/splash4.jpg);
+
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    /*Планшеты в режиме landscape, нетбуки, ноутбуки, десктоп.*/
+    .bgpic {
+
+        background-image: url(./img/notebook-992/shelby.jpg);
+
+    }
+
+    .page3bg {
+
+        background-image: url(./img/notebook-992/splash3.jpg);
+
+    }
+    .page4bg {
+
+        background-image: url(./img/notebook-992/splash2.jpg);
+
+    }
+    .page5bg {
+
+        background-image: url(./img/notebook-992/colorsplash.jpg);
+
+    }
+    .page6bg {
+
+        background-image: url(./img/notebook-992/bumbum2.jpg);
+
+    }
+    .page7bg {
+
+        background-image: url(./img/notebook-992/drops.jpg);
+
+    }
+    .page8bg {
+        background-image: url(./img/notebook-992/splash4.jpg);
+
+    }
+}
+
+@media only screen and (min-width: 1382px) {
+
+    /*Десктоп с большими разрешениями, телевизоры.*/
+    .bgpic {
+
+
+        background-image: url(./img/tv-1382/shelby.jpg);
+
+    }
+
+    .page3bg {
+
+        background-image: url(./img/tv-1382/splash3.jpg);
+
+    }
+    .page4bg {
+
+        background-image: url(./img/tv-1382/splash2.jpg);
+
+    }
+    .page5bg {
+
+        background-image: url(./img/tv-1382/colorsplash.jpg);
+
+    }
+    .page6bg {
+
+        background-image: url(./img/tv-1382/bumbum2.jpg);
+
+    }
+    .page7bg {
+
+        background-image: url(./img/tv-1382/drops.jpg);
+
+    }
+    .page8bg {
+
+        background-image: url(./img/tv-1382/splash4.jpg);
+
+    }
+
+}
+
+
