@@ -39,6 +39,22 @@
         background-image: url(./img/mobail-480/splash4.jpg);
 
     }
+    .bg1 {
+
+        background-image: url(./img/mobail-480/left.jpg);
+
+    }
+    .bg2 {
+
+        background-image: url(./img/mobail-480/center.jpg);
+
+    }
+    .bg3 {
+
+        background-image: url(./img/mobail-480/right.jpg);
+
+    }
+
 
 }
 
@@ -83,6 +99,21 @@
         background-image: url(./img/board-768/splash4.jpg);
 
     }
+    .bg1 {
+
+        background-image: url(./img/board-768/left.jpg);
+
+    }
+    .bg2 {
+
+        background-image: url(./img/board-768/center.jpg);
+
+    }
+    .bg3 {
+
+        background-image: url(./img/board-768/right.jpg);
+
+    }
 
 }
 
@@ -122,6 +153,21 @@
     }
     .page8bg {
         background-image: url(./img/notebook-992/splash4.jpg);
+
+    }
+    .bg1 {
+
+        background-image: url(./img/notebook-992/left.jpg);
+
+    }
+    .bg2 {
+
+        background-image: url(./img/notebook-992/center.jpg);
+
+    }
+    .bg3 {
+
+        background-image: url(./img/notebook-992/right.jpg);
 
     }
 }
@@ -164,6 +210,21 @@
     .page8bg {
 
         background-image: url(./img/tv-1382/splash4.jpg);
+
+    }
+    .bg1 {
+
+        background-image: url(./img/tv-1382/left.jpg);
+
+    }
+    .bg2 {
+
+        background-image: url(./img/tv-1382/center.jpg);
+
+    }
+    .bg3 {
+
+        background-image: url(./img/tv-1382/right.jpg);
 
     }
 
