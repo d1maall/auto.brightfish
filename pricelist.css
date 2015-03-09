@@ -118,10 +118,11 @@
 
 .priceonhover {
     opacity: 1;
+    cursor: pointer;
 }
 
 .textvisibility {
-    opacity: 0;
+    display: none;
 }
 .prcherta{ color:#FFCC01;}
 .titleprice{

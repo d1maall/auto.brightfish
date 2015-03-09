@@ -121,6 +121,110 @@ $(document).ready(function() {
         }
     })
 
+    $('.price1').magnificPopup({
+        items: {
+            src: './img/price/auto-1.png'
+        },
+        type: 'image',
+        closeOnContentClick: 'true',
+        removalDelay: 300,
+        mainClass: 'mfp-fade',
+        image: {
+            cursor: 'pointer'
+        }
+    })
+
+    $('.price2').magnificPopup({
+        items: {
+            src: './img/price/auto-2.png'
+        },
+        type: 'image',
+        closeOnContentClick: 'true',
+        removalDelay: 300,
+        mainClass: 'mfp-fade',
+        image: {
+            cursor: 'pointer'
+        }
+    })
+
+    $('.price3').magnificPopup({
+        items: {
+            src: './img/price/auto-3.png'
+        },
+        type: 'image',
+        closeOnContentClick: 'true',
+        removalDelay: 300,
+        mainClass: 'mfp-fade',
+        image: {
+            cursor: 'pointer'
+        }
+    })
+
+    $('.price4').magnificPopup({
+        items: {
+            src: './img/price/auto-4.png'
+        },
+        type: 'image',
+        closeOnContentClick: 'true',
+        removalDelay: 300,
+        mainClass: 'mfp-fade',
+        image: {
+            cursor: 'pointer'
+        }
+    })
+
+    $('.price5').magnificPopup({
+        items: {
+            src: './img/price/auto-5.png'
+        },
+        type: 'image',
+        closeOnContentClick: 'true',
+        removalDelay: 300,
+        mainClass: 'mfp-fade',
+        image: {
+            cursor: 'pointer'
+        }
+    })
+
+    $('.price6').magnificPopup({
+        items: {
+            src: './img/price/auto-6.png'
+        },
+        type: 'image',
+        closeOnContentClick: 'true',
+        removalDelay: 300,
+        mainClass: 'mfp-fade',
+        image: {
+            cursor: 'pointer'
+        }
+    })
+
+    $('.price7').magnificPopup({
+        items: {
+            src: './img/price/auto-7.png'
+        },
+        type: 'image',
+        closeOnContentClick: 'true',
+        removalDelay: 300,
+        mainClass: 'mfp-fade',
+        image: {
+            cursor: 'pointer'
+        }
+    })
+
+    $('.price8').magnificPopup({
+        items: {
+            src: './img/price/auto-8.png'
+        },
+        type: 'image',
+        closeOnContentClick: 'true',
+        removalDelay: 300,
+        mainClass: 'mfp-fade',
+        image: {
+            cursor: 'pointer'
+        }
+    })
+
     $('.popup-with-form').magnificPopup({
         closeOnContentClick: false,
         type: 'inline',
