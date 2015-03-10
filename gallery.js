@@ -37,7 +37,7 @@ $(document).ready(function() {
         image: {
             cursor: 'pointer'
         }
-    })
+    });
 
     $('.gallery2').magnificPopup({
         items: {
@@ -50,7 +50,7 @@ $(document).ready(function() {
         image: {
             cursor: 'pointer'
         }
-    })
+    });
 
 
     $('.gallery3').magnificPopup({
@@ -64,7 +64,7 @@ $(document).ready(function() {
         image: {
             cursor: 'pointer'
         }
-    })
+    });
 
 
     $('.gallery4').magnificPopup({
@@ -78,7 +78,7 @@ $(document).ready(function() {
         image: {
             cursor: 'pointer'
         }
-    })
+    });
 
 
     $('.gallery5').magnificPopup({
@@ -92,7 +92,7 @@ $(document).ready(function() {
         image: {
             cursor: 'pointer'
         }
-    })
+    });
 
 
     $('.gallery6').magnificPopup({
@@ -106,7 +106,7 @@ $(document).ready(function() {
         image: {
             cursor: 'pointer'
         }
-    })
+    });
 
     $('.gallery7').magnificPopup({
         items: {
@@ -119,7 +119,7 @@ $(document).ready(function() {
         image: {
             cursor: 'pointer'
         }
-    })
+    });
 
     $('.price1').magnificPopup({
         items: {
@@ -132,7 +132,7 @@ $(document).ready(function() {
         image: {
             cursor: 'pointer'
         }
-    })
+    });
 
     $('.price2').magnificPopup({
         items: {
@@ -145,7 +145,7 @@ $(document).ready(function() {
         image: {
             cursor: 'pointer'
         }
-    })
+    });
 
     $('.price3').magnificPopup({
         items: {
@@ -158,7 +158,7 @@ $(document).ready(function() {
         image: {
             cursor: 'pointer'
         }
-    })
+    });
 
     $('.price4').magnificPopup({
         items: {
@@ -171,7 +171,7 @@ $(document).ready(function() {
         image: {
             cursor: 'pointer'
         }
-    })
+    });
 
     $('.price5').magnificPopup({
         items: {
@@ -184,7 +184,7 @@ $(document).ready(function() {
         image: {
             cursor: 'pointer'
         }
-    })
+    });
 
     $('.price6').magnificPopup({
         items: {
@@ -197,7 +197,7 @@ $(document).ready(function() {
         image: {
             cursor: 'pointer'
         }
-    })
+    });
 
     $('.price7').magnificPopup({
         items: {
@@ -210,7 +210,7 @@ $(document).ready(function() {
         image: {
             cursor: 'pointer'
         }
-    })
+    });
 
     $('.price8').magnificPopup({
         items: {
@@ -223,7 +223,7 @@ $(document).ready(function() {
         image: {
             cursor: 'pointer'
         }
-    })
+    });
 
     $('.popup-with-form').magnificPopup({
         closeOnContentClick: false,
