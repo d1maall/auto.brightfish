@@ -352,3 +352,10 @@ nav ul li{
     margin-top: 42.5%;
 }
 .sc7{ margin-top:6%}
+
+
+/*-------------------hamburger-----------------------*/
+.hbg{
+    /*position: fixed;*/
+    width:100%;
+}
