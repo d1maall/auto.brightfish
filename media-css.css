@@ -107,7 +107,40 @@
         display:block;
     }
     /*СЛАЙД 2*/
+    .c1{
+        width: 33%;
+        height: 100vh;
 
+    }
+    .c2{
+        width: 34%;
+        height: 100vh;
+
+    }
+    .c3{
+        width: 33%;
+        height: 100vh;
+
+    }
+    .slidercontent{
+        margin-top: 35vh;
+    }
+    .bghovered {
+         transform: scale(1.015, 1.015);
+    }
+    .icon1{
+        width: 100%;
+        margin-left: 0;
+    }
+    .slidercontentup {
+        margin-top: 20%;
+    }
+    .icon1up{
+        opasity:1;
+    }
+    .icon1disappear {
+        display: block;
+    }
     /*СЛАЙД 4*/
 
     /*ГАЛЕРЕЯ*/
@@ -119,9 +152,18 @@
     /*СЛАЙД 10*/
 
     /*ТЕКСТ*/
-
+    .titlepage1{
+        font-size: 0.5em;
+        margin-top: 15%;
+    }
+    .title2{
+        font-size:0.5em;
+    }
     /*КНОПКИ*/
-
+    .btnpage1{
+        margin-left: 39%;
+        margin-right: 39%;
+    }
     /*СКРОЛ*/
 }
 
@@ -182,9 +224,18 @@
     /*СЛАЙД 10*/
 
     /*ТЕКСТ*/
-
+    .titlepage1{
+        font-size: 0.5em;
+        margin-top: 15%;
+    }
+    .title2{
+        font-size:0.5em;
+    }
     /*КНОПКИ*/
-
+    .btnpage1{
+        margin-left: 39%;
+        margin-right: 39%;
+    }
     /*СКРОЛ*/
 }
 
@@ -244,9 +295,18 @@
     /*СЛАЙД 10*/
 
     /*ТЕКСТ*/
-
+    .titlepage1{
+        font-size: 0.5em;
+        margin-top: 15%;
+    }
+    .title2{
+        font-size:0.5em;
+    }
     /*КНОПКИ*/
-
+    .btnpage1{
+        margin-left: 39%;
+        margin-right: 39%;
+    }
     /*СКРОЛ*/
 }
 

@@ -57,24 +57,18 @@
     font-family: "Clear Sans";
 }
 .titlepage1 {
-    margin-top: 15%;
+    margin-top: 35%;
     top: 40%;
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
     height: 30% color : #fff;
     text-align: center;
-    font-size: 0.5em;
+    font-size: 0.3em;
     font-weight: 500;
     font-family: 'Clear Sans';
     letter-spacing: 0.02em;
     text-transform: uppercase;
-
-    
-   
-    
-     
-    
  }
  .title2 {
 
@@ -84,7 +78,7 @@
      height: 30%*/
      width: 100% ;
      text-align: center;
-     font-size: 0.5em;
+     font-size: 0.4em;
      font-weight: 200;
      font-family: 'Clear Sans';
      letter-spacing: 0.02em;

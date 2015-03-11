@@ -139,12 +139,12 @@
         <div class="leftpart c1" >
             <div class="bg1"></div>
             <div class="slidercontent slidercontentleft title2 ">
-                <div class="icon1"><img  src="./img/car2.svg" alt=""></div>
+                <div class="icon1 ic1"><img  src="./img/car2.svg" alt=""></div>
                 <div class = "slide2titleleft">автомобили</div>
                 <div class="textsl2 textsl2left">Выделите свой автомобиль из потока и подчеркните его индивидуальность.
                     Кроме того, уникальный автомобиль теряет привлекательность для угонщиков.
                 </div>
-                <div>
+                <!--<div>
                     <a class = "popup-with-form btn2 btn2left topleft" href="#form2">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</a>
                     <form id="form2" class="white-popup-block mfp-hide">
                         <div class="titleform">Получить консультацию</div>
@@ -161,19 +161,19 @@
                         </ul>
                         <div class="knopka" onclick="send()">Отправить</div>
                     </form>
-                </div>
+                </div>-->
             </div>
         </div>
 
         <div class="centerpart c2">
             <div class="bg2"></div>
             <div class="slidercontent slidercontentcenter title2">
-                <div class="icon1"><img class="svg" src="./img/moto1.svg" alt=""></div>
+                <div class="icon1 ic2"><img class="svg" src="./img/moto1.svg" alt=""></div>
                 <div class="slide2titlecenter">мотоциклы</div>
                 <div class="textsl2 textsl2center">Сегодня именно аэрография стала альтернативным способом сделать байк
                     индивидуальным и ярким. Для истинного байкера – это возможность создать неповторимый и эксклюзивный
                     мотоцикл, подчеркнув характер и стиль его владельца.</div>
-                <div>
+                <!--<div>
                     <a class = "popup-with-form btn2 btn2center topcenter" href="#form3">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</a>
                     <form id="form3" class="white-popup-block mfp-hide">
                         <div class="titleform">Получить консультацию</div>
@@ -190,7 +190,7 @@
                         </ul>
                         <div class="knopka" onclick="send()">Отправить</div>
                     </form>
-                </div>
+                </div>-->
 
             </div>
         </div>
@@ -204,7 +204,7 @@
                     хоккейный шлем, любимый велосипед, защиту и всё что Вы пожелаете!
                     Наверное почти у всех есть вещи, которые им дороги. Естественно, что относятся они к ним очень
                     трепетно, в том числе и наносят аэрографию.</div>
-                <div>
+                <!--<div>
                     <a class = "popup-with-form btn2 btn2right topright" href="#form4">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</a>
                     <form id="form4" class="white-popup-block mfp-hide">
                         <div class="titleform">Получить консультацию</div>
@@ -221,10 +221,10 @@
                         </ul>
                         <div class="knopka" onclick="send()">Отправить</div>
                     </form>
-                </div>
+                </div>-->
             </div>
         </div>
-        <div class=" scroll sc2"><a href="#our-techniques" class=""><img src="./img/arrow1.svg" alt=""></a></div>
+        <!--<div class=" scroll sc2"><a href="#our-techniques" class=""><img src="./img/arrow1.svg" alt=""></a></div>-->
     </div>
 <!------------------------------------ SLIDE 3 -------------------------------------------------------->
     <div class="section page3 twocolumns" data-anchor="our-techniques">
@@ -547,8 +547,12 @@
         $(".c3").toggleClass("c3hover");
         $(".slidercontentleft").toggleClass("slidercontentup");
         $(".slide2titleleft").toggleClass("slide2title");
+        $(".ic1").toggleClass("icon1up");
         setTimeout(function(){
             $(".slide2titleleft").toggleClass("slide2titledisappear");
+        }, 500);
+        setTimeout(function(){
+            $(".ic1").toggleClass("icon1disappear");
         }, 500);
         setTimeout(function(){
             $(".textsl2left").toggleClass("textsl2appear");
@@ -571,6 +575,10 @@
         $(".c3").toggleClass("c3hover");
         $(".slidercontentcenter").toggleClass("slidercontentup");
         $(".slide2titlecenter").toggleClass("slide2title");
+        $(".ic2").toggleClass("icon1up");
+        setTimeout(function(){
+            $(".ic2").toggleClass("icon1disappear");
+        }, 500);
         setTimeout(function(){
             $(".slide2titlecenter").toggleClass("slide2titledisappear");
         }, 500);
@@ -653,7 +661,36 @@
         $(".pricetext8").toggleClass("textvisibility");
     });
 </script>
+<!— Yandex.Metrika counter —>
+<script type="text/javascript">
+    var yaParams = {/*Здесь параметры визита*/};
+</script>
 
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter26346798 = new Ya.Metrika({id:26346798,
+                    webvisor:true,
+                    clickmap:true,
+                    accurateTrackBounce:true,params:window.yaParams||{ }});
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/26346798" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!— /Yandex.Metrika counter —>
 </body>
 </html>
 
