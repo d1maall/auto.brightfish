@@ -90,3 +90,105 @@
     text-align: center;
 
 }
+/*-----------------------ГАМБУРГЕР---------*/
+#hamburger {
+    cursor: pointer;
+    display: block;
+    height: 24px;
+    padding: 3px 4px 3px;
+    position: relative;
+    width: 25px;
+    background: #2c2c2c;
+    background:rgba(44,44,44,0.8);
+
+}
+
+/*
+The white stripes in the hamburger button
+*/
+#hamburger div {
+    background-color: #fff;
+    border: 1px solid #eee;
+
+    height: 2px;
+    margin-top: 3px;
+    width: 90%;
+}
+.js .link_nav {
+    display:block;
+    position:fixed;
+    left:0px;
+    top:15px;
+    margin: 0 0 0 0;
+
+
+    background:#2c2c2c;
+    background:rgba(44,44,44,0.8);
+
+    z-index: 400;
+
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.js .menu_main > ul {
+    position:fixed;
+    width:65%;
+    left:-85%;
+    top:5px;
+    margin-left:-1px;
+    z-index: 390;
+
+    background:#fff;
+    background:rgba(44,44,44,0.8);
+
+
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.js .menu_main ul li {
+    display:block;
+    text-align:left;
+    margin-top: 3px;
+
+    background-color:transparent;
+}
+.js .menu_main ul li:last-child{margin-bottom: 3px;}
+.js .menu_main a {
+    text-decoration: none;
+    color: #FFCC01;
+    text-transform: uppercase;
+    font-family: "Clear Sans";
+}
+
+
+/* Navigation is opened */
+.mobile_nav .container {
+    overflow-x: hidden;
+    width:100%;
+}
+.mobile_nav .header,
+.mobile_nav .info,
+.mobile_nav .footer {
+    margin-left: 70%;
+    z-index: 390;
+}
+
+.mobile_nav .menu_main > ul {
+    display:block;
+    top:5px;
+    left:0;
+    width:55%;
+}
+
+.mobile_nav .link_nav {
+    left:0;
+    top:22px;
+
+}

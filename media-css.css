@@ -1,6 +1,9 @@
 
-.menuvisible{
+.menu2visible{
     display:none;
+}
+.menu1visible{
+    display:block;
 }
 
 @media only screen and (min-width: 640px) {
@@ -97,8 +100,11 @@
     }
 
     /*МЕНЮ*/
-    .menuvisible{
-        display: block;
+    .menu1visible{
+        display: none;
+    }
+    .menu2visible{
+        display:block;
     }
     /*СЛАЙД 2*/
 
@@ -157,8 +163,11 @@
     }
 
     /*МЕНЮ*/
-    .menuvisible{
-        display: block;
+    .menu1visible{
+        display: none;
+    }
+    .menu2visible{
+        display:block;
     }
     /*СЛАЙД 2*/
 
@@ -216,8 +225,11 @@
         background-image: url(./img/tv-2048/right.jpg);
     }
     /*МЕНЮ*/
-    .menuvisible{
-        display: block;
+    .menu1visible{
+        display: none;
+    }
+    .menu2visible{
+        display:block;
     }
     /*СЛАЙД 2*/
 
