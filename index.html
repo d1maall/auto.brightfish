@@ -144,7 +144,7 @@
                 <div class="textsl2 textsl2left">Выделите свой автомобиль из потока и подчеркните его индивидуальность.
                     Кроме того, уникальный автомобиль теряет привлекательность для угонщиков.
                 </div>
-                <!--<div>
+                <div>
                     <a class = "popup-with-form btn2 btn2left topleft" href="#form2">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</a>
                     <form id="form2" class="white-popup-block mfp-hide">
                         <div class="titleform">Получить консультацию</div>
@@ -161,7 +161,7 @@
                         </ul>
                         <div class="knopka" onclick="send()">Отправить</div>
                     </form>
-                </div>-->
+                </div>
             </div>
         </div>
 
@@ -173,7 +173,7 @@
                 <div class="textsl2 textsl2center">Сегодня именно аэрография стала альтернативным способом сделать байк
                     индивидуальным и ярким. Для истинного байкера – это возможность создать неповторимый и эксклюзивный
                     мотоцикл, подчеркнув характер и стиль его владельца.</div>
-                <!--<div>
+                <div>
                     <a class = "popup-with-form btn2 btn2center topcenter" href="#form3">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</a>
                     <form id="form3" class="white-popup-block mfp-hide">
                         <div class="titleform">Получить консультацию</div>
@@ -190,7 +190,7 @@
                         </ul>
                         <div class="knopka" onclick="send()">Отправить</div>
                     </form>
-                </div>-->
+                </div>
 
             </div>
         </div>
@@ -198,13 +198,13 @@
         <div class="rightpart c3">
             <div class="bg3"></div>
             <div class="slidercontent slidercontentright title2">
-                <div class="icon1"><img class="svg" src="./img/helmet2.svg" alt=""></div>
+                <div class="icon1 ic3"><img class="svg" src="./img/helmet2.svg" alt=""></div>
                 <div class="slide2titleright">шлемы и прочее</div>
                 <div class="textsl2 textsl2right">С помощью аэрографии можно расписать любой предмет: мотоциклетный или
                     хоккейный шлем, любимый велосипед, защиту и всё что Вы пожелаете!
                     Наверное почти у всех есть вещи, которые им дороги. Естественно, что относятся они к ним очень
                     трепетно, в том числе и наносят аэрографию.</div>
-                <!--<div>
+                <div>
                     <a class = "popup-with-form btn2 btn2right topright" href="#form4">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</a>
                     <form id="form4" class="white-popup-block mfp-hide">
                         <div class="titleform">Получить консультацию</div>
@@ -221,7 +221,7 @@
                         </ul>
                         <div class="knopka" onclick="send()">Отправить</div>
                     </form>
-                </div>-->
+                </div>
             </div>
         </div>
         <!--<div class=" scroll sc2"><a href="#our-techniques" class=""><img src="./img/arrow1.svg" alt=""></a></div>-->
@@ -603,6 +603,10 @@
         $(".c3").toggleClass("c3hovered");
         $(".slidercontentright").toggleClass("slidercontentup");
         $(".slide2titleright").toggleClass("slide2title");
+        $(".ic3").toggleClass("icon1up");
+        setTimeout(function(){
+            $(".ic3").toggleClass("icon1disappear");
+        }, 500);
         setTimeout(function(){
             $(".slide2titleright").toggleClass("slide2titledisappear");
         }, 500);
