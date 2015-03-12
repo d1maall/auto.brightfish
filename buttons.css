@@ -125,25 +125,25 @@
     -moz-border-radius: 0;
     border-radius: 0px;
     font-family: 'Clear Sans';
-    font-weight: 300;
+    font-weight: 400;/**/
     color: #FFCC01;
-    font-size: 35%;
+    font-size: 55%;/**/
     padding-top: 10px;
     padding-bottom: 10px;
     border: solid #FFf 1px;
     text-decoration: none;
-    margin-left: 25%;
-    margin-right: 25%;
-    width: 50%;
+    margin-left: 32%;/**/
+    margin-right: 32%;/**/
+    width: 40%;/*35*/
     text-align: center;
     cursor: pointer;
     transition: 1s;
     margin-top: 5%;
     opacity: 0;
 }
-.topleft{ margin-top: 33%;}
-.topcenter{margin-top: 12%;}
-.topright{margin-top: 3%}
+.topleft{ margin-top: 12%;}/**/
+.topcenter{margin-top: 11%;}
+.topright{margin-top: 3%}/*3*/
 
 .btn2left {
     display: none;

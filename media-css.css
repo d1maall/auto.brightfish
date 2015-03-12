@@ -5,6 +5,7 @@
 .menu1visible{
     display:block;
 }
+.sc2{display:none;}
 
 @media only screen and (min-width: 640px) {
     /*Здесь стили более разумных, но все еще мобильных устройств. Android, iPhone  и так далее.*/
@@ -59,7 +60,7 @@
     /*КНОПКИ*/
 
     /*СКРОЛ*/
-
+    .sc2{display:none;}
 }
 
 @media only screen and (min-width: 1000px) {
@@ -125,9 +126,7 @@
     .slidercontent{
         margin-top: 35vh;
     }
-    .bghovered {
-         transform: scale(1.015, 1.015);
-    }
+
     .icon1{
         width: 100%;
         margin-left: 0;
@@ -141,6 +140,8 @@
     .icon1disappear {
         display: block;
     }
+
+
     /*СЛАЙД 4*/
 
     /*ГАЛЕРЕЯ*/
@@ -159,12 +160,31 @@
     .title2{
         font-size:0.5em;
     }
+    .textsl2{
+         font-size: 0.4em;
+         margin-top:12%;
+     }
     /*КНОПКИ*/
     .btnpage1{
         margin-left: 39%;
         margin-right: 39%;
     }
+    .topleft{
+         margin-top: 33%;
+     }
+    .btn2 {
+        font-weight: 300;
+        font-size: 35%;
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 50%;
+    }
+    .topcenter{margin-top: 12%;}
     /*СКРОЛ*/
+    .sc2{
+        margin-top:42.5%;
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 1300px) {
@@ -212,6 +232,39 @@
         display:block;
     }
     /*СЛАЙД 2*/
+    .c1{
+        width: 33%;
+        height: 100vh;
+
+    }
+    .c2{
+        width: 34%;
+        height: 100vh;
+
+    }
+    .c3{
+        width: 33%;
+        height: 100vh;
+
+    }
+    .slidercontent{
+        margin-top: 35vh;
+    }
+
+    .icon1{
+        width: 100%;
+        margin-left: 0;
+    }
+    .slidercontentup {
+        margin-top: 20%;
+    }
+    .icon1up{
+        opacity: 1;
+    }
+    .icon1disappear {
+        display: block;
+    }
+
 
     /*СЛАЙД 4*/
 
@@ -231,12 +284,30 @@
     .title2{
         font-size:0.5em;
     }
+    .textsl2{
+         font-size: 0.4em;
+         margin-top:12%;
+     }
     /*КНОПКИ*/
     .btnpage1{
         margin-left: 39%;
         margin-right: 39%;
     }
+    .topleft{
+         margin-top: 33%;
+     }
+    .btn2 {
+        font-weight: 300;
+        font-size: 35%;
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 50%;
+    }
+    .topcenter{margin-top: 12%;}
     /*СКРОЛ*/
+    .sc2{
+        margin-top:42.5%;
+    }
 }
 
 @media only screen and (min-width: 1900px) {
@@ -283,6 +354,39 @@
         display:block;
     }
     /*СЛАЙД 2*/
+    .c1{
+        width: 33%;
+        height: 100vh;
+
+    }
+    .c2{
+        width: 34%;
+        height: 100vh;
+
+    }
+    .c3{
+        width: 33%;
+        height: 100vh;
+
+    }
+    .slidercontent{
+        margin-top: 35vh;
+    }
+
+    .icon1{
+        width: 100%;
+        margin-left: 0;
+    }
+    .slidercontentup {
+        margin-top: 20%;
+    }
+    .icon1up{
+        opacity: 1;
+    }
+    .icon1disappear {
+        display: block;
+    }
+
 
     /*СЛАЙД 4*/
 
@@ -302,12 +406,30 @@
     .title2{
         font-size:0.5em;
     }
+    .textsl2{
+         font-size: 0.4em;
+         margin-top:12%;
+     }
     /*КНОПКИ*/
     .btnpage1{
         margin-left: 39%;
         margin-right: 39%;
     }
+    .topleft{
+        margin-top: 33%;
+    }
+    .btn2 {
+        font-weight: 300;
+        font-size: 35%;
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 50%;
+    }
+    .topcenter{margin-top: 12%;}
     /*СКРОЛ*/
+    .sc2{
+        margin-top:42.5%;
+    }
 }
 
 

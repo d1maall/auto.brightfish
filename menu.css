@@ -94,10 +94,10 @@
 #hamburger {
     cursor: pointer;
     display: block;
-    height: 24px;
+    height: 48px;
     padding: 3px 4px 3px;
     position: relative;
-    width: 25px;
+    width: 50px;
     background: #2c2c2c;
     background:rgba(44,44,44,0.8);
 
@@ -108,17 +108,19 @@ The white stripes in the hamburger button
 */
 #hamburger div {
     background-color: #fff;
-    border: 1px solid #eee;
+    border: 2px solid #eee;
 
-    height: 2px;
-    margin-top: 3px;
+    height: 4px;
+    margin-top: 6px;
     width: 90%;
+
 }
+/*-----------------------------------------*/
 .js .link_nav {
     display:block;
     position:fixed;
-    left:0px;
-    top:15px;
+    left:0;
+    top:0;
     margin: 0 0 0 0;
 
 
@@ -136,9 +138,9 @@ The white stripes in the hamburger button
 
 .js .menu_main > ul {
     position:fixed;
-    width:65%;
-    left:-85%;
-    top:5px;
+    width:100%;
+    left:-120%;
+    top:-17px;
     margin-left:-1px;
     z-index: 390;
 
@@ -155,15 +157,21 @@ The white stripes in the hamburger button
 .js .menu_main ul li {
     display:block;
     text-align:left;
-    margin-top: 3px;
+    margin-top: 30px;
 
     background-color:transparent;
 }
-.js .menu_main ul li:last-child{margin-bottom: 3px;}
+.js .menu_main ul li:first-child{
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 30px;
+    margin-right: 25%;
+}
+.js .menu_main ul li:last-child{margin-bottom: 30px;}
 .js .menu_main a {
     text-decoration: none;
     color: #FFCC01;
     text-transform: uppercase;
+    font-size: 2em;
     font-family: "Clear Sans";
 }
 
@@ -182,13 +190,13 @@ The white stripes in the hamburger button
 
 .mobile_nav .menu_main > ul {
     display:block;
-    top:5px;
+    top:-17px;
     left:0;
-    width:55%;
+    width:100%;
 }
 
 .mobile_nav .link_nav {
-    left:0;
-    top:22px;
+    left:90%;
+    top:0;
 
 }
