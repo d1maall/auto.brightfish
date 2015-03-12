@@ -3,9 +3,12 @@
  */
 
 function send() {
-    var name = $('.name').val();
-    var email = $('.email').val();
-    var phone = $('.phone').val();
+    //var name = $('.name').val();
+    //var email = $('.email').val();
+    //var phone = $('.phone').val();
+
+    yaCounter26346798.reachGoal('AUTO');
+
     $.post(
         "./mail.php",
         {
