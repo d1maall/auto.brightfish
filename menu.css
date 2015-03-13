@@ -94,10 +94,10 @@
 #hamburger {
     cursor: pointer;
     display: block;
-    height: 48px;
-    padding: 3px 4px 3px;
+    height: 13vw;
+    padding: 0.47vw 0.63vw 0.47vw;
     position: relative;
-    width: 50px;
+    width: 15vw;
     background: #2c2c2c;
     background:rgba(44,44,44,0.8);
 
@@ -108,11 +108,11 @@ The white stripes in the hamburger button
 */
 #hamburger div {
     background-color: #fff;
-    border: 2px solid #eee;
+    border: 0.33vw solid #fff;
 
-    height: 4px;
-    margin-top: 6px;
-    width: 90%;
+    height:1.25vw ;
+    margin-top: 2vw;
+    width: 14vw;
 
 }
 /*-----------------------------------------*/
@@ -125,7 +125,7 @@ The white stripes in the hamburger button
 
 
     background:#2c2c2c;
-    background:rgba(44,44,44,0.8);
+    background:rgba(44,44,44,0.9);
 
     z-index: 400;
 
@@ -145,7 +145,7 @@ The white stripes in the hamburger button
     z-index: 390;
 
     background:#fff;
-    background:rgba(44,44,44,0.8);
+    background:rgba(44,44,44,0.9);
 
 
     -moz-transition: all 1s;
@@ -169,7 +169,7 @@ The white stripes in the hamburger button
 .js .menu_main ul li:last-child{margin-bottom: 30px;}
 .js .menu_main a {
     text-decoration: none;
-    color: #FFCC01;
+    color: #FFFFff;
     text-transform: uppercase;
     font-size: 2em;
     font-family: "Clear Sans";
@@ -196,7 +196,7 @@ The white stripes in the hamburger button
 }
 
 .mobile_nav .link_nav {
-    left:90%;
+    left:80%;
     top:0;
 
 }

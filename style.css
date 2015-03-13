@@ -44,7 +44,7 @@
 /*.twocolumns div{ }*/
 
 .lefthalf{
-    width: 60%;
+    width: 100%;/*60*/
     height: 100%;
     position: absolute;
 }
@@ -104,7 +104,7 @@
 .page3bg {
     position: absolute;
     background-image: url(./img/splash3.jpg);
-    background-position: center bottom;
+    background-position:right bottom ;/*center bottom*/
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -114,7 +114,7 @@
 .page4bg {
     position: absolute;
     background-image: url(./img/splash2.jpg);
-    background-position: center bottom;
+    background-position: right bottom;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -167,6 +167,8 @@
     height: 100%;
     background-color: transparent;
     z-index: 10;
+
+
 
    /* font-size: 1em;*/
    /* color: #ffffff;*/
@@ -242,23 +244,34 @@
 }
 .vertical{
     /*border: solid 1px #fff;*/
-    height:30%;
+    height:30%;/*30*/
 
 }
-.widthtitle{width: 60%;}
+.widthtitle{
+    width: 100%;/*60*/
+    margin-top: 15%;
+}
+ .widthtitle1{
+
+     width: 100%;/*0*/
+     margin-top: 0;
+ }
 
 .infogr {
-    opacity: 0;
-    width: 15%;
+
+    opacity: 1;
+    width: 42%;/*15*/
     height: 100%;
     /*padding-right: 4%;*/
     float: left;
    /*border: solid 1px #fff;*/
     transition: 2s;
-    margin-left: 2%;
+    margin-left: 5%;/*2*/
+    margin-top: 1%;
 }
-.infograffirst{margin-left: 6%}
+.infograffirst{margin-left: 10%}/*6*/
 
+.sdviginfo{margin-left:10%}
 
 .icon{
     width:100%;
@@ -311,20 +324,26 @@ nav ul li{
     margin-top: 1%;
 }
 
+
 .scroll{
+    position: absolute;
     width: 10%;
     height: 10%;
-    margin-top:49%;
-    margin-left:45%;
+    top:90%;
+    left:45%;
+    /*margin-top:25%;*/
+
+    /*margin-left:45%;*/
 }
+
 .scroll img {
     width: 80%;
     height: 80%;
 
 }
-.sc3{
-    margin-left:78%;
-    opacity: 0;
+ .sc3{
+    /* margin-left:78%;*/
+    opacity: 1;
 }
 .sc4{opacity: 0;}
 .sc5{

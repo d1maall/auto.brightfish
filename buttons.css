@@ -1,5 +1,5 @@
 .btn {
-    opacity: 0;
+    opacity: 1;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0px;
@@ -11,12 +11,12 @@
     border: solid #ffffff 1px;
     text-decoration: none;
     margin-left: 10%;
-    width: 28%;
+    width: 35%;/*28*/
     text-align: center;
     cursor: pointer;
     transition: 0.5s ease-in-out;
     background-color: inherit;
-    margin-top: 5%;
+    margin-top: 7%;/*5*/
 }
 
 .btn a{
@@ -51,52 +51,52 @@
 }
 
 .btn4 {
-    -webkit-border-radius: 0;
+   /* -webkit-border-radius: 0;
     -moz-border-radius: 0;
-    border-radius: 0px;
+    border-radius: 0px;*/
     font-family: 'Roboto';
     font-weight: 200;
     color: #FFCC01;
     font-size: 1.1em;
     padding: 10px 10px 10px 10px;
-    border: solid #fff 1px;
+    border: solid #fff 2px;/*1*/
     text-decoration: none;
-    margin-left: 10%;
+    margin-left: 25%;/*10*/
     /*margin-right: 40%;*/
-    width: 28%;
+    width: 45%;/*28*/
     text-align: center;
     cursor: pointer;
     transition: 0.5s ease-in-out;
     background-color: inherit;
-    margin-top: 5%;
-    opacity: 0;
+    margin-top: 55%;/*5*/
+    opacity: 1;
 
 }
 .btnpage1{
-   -webkit-border-radius: 0;
+  /* -webkit-border-radius: 0;
     -moz-border-radius: 0;
-    border-radius: 0px;
+    border-radius: 0px;*/
     font-family: 'Clear Sans';
-    font-weight: 100;
+    font-weight: 200;/*100*/
     color: #ffcc01;
-    font-size: 20%;
+    font-size: 30%;/*20*/
     padding: 10px 10px 10px 10px;
-    border: solid #fff 1px;
+    border: solid #fff 2px;/*1*/
     text-decoration: none;
-    margin-left: 30%;
-    margin-right: 30%;
-    width: 24%;
+    margin-left: 20%;/*30*/
+    margin-right: 20%;/*30*/
+    width: 35%;/*24*/
     text-align: center;
     cursor: pointer;
     transition: 0.5s ease-in-out;
     /*background-color: #fffcf2;*/
-    margin-top: 5%; 
+    margin-top: 0%; /*5*/
 }
 
 .btn8 {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
-    border-radius: 2px;
+    border-radius: 0;
     font-family: 'Roboto';
     font-weight: 200;
     color: #FFCC01;
@@ -121,18 +121,18 @@
 
 
 .btn2{
-    -webkit-border-radius: 0;
+   /* -webkit-border-radius: 0;
     -moz-border-radius: 0;
-    border-radius: 0px;
+    border-radius: 0px;*/
     font-family: 'Clear Sans';
     font-weight: 400;/**/
     color: #FFCC01;
     font-size: 55%;/**/
     padding-top: 10px;
     padding-bottom: 10px;
-    border: solid #FFf 1px;
+    border: solid #FFf 2px;/*1*/
     text-decoration: none;
-    margin-left: 32%;/**/
+    margin-left: 20%;/*32*/
     margin-right: 32%;/**/
     width: 40%;/*35*/
     text-align: center;

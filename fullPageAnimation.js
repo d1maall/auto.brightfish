@@ -62,16 +62,18 @@ $(document).ready(function() {
              $('.navigation').css("background", "rgba(0, 0, 0, 1)")
              }*/
             if (index == 3) {
-                $('.tt1').addClass('animated fadeInDown appear');
-                setTimeout(function(){
-                    $('.text').addClass('appear')
-                }, 500);
-                setTimeout(function(){
-                    $('.btn').addClass('animated fadeInUp bounce appear')
-                }, 1000);
-                setTimeout(function(){
-                    $('.sc3').addClass('animated fadeInUp bounce appear')
-                }, 1100);
+                if ($(window).width() > 1000) {
+                    $('.tt1').addClass('animated fadeInDown appear');
+                    setTimeout(function () {
+                        $('.text').addClass('appear')
+                    }, 500);
+                    setTimeout(function () {
+                        $('.btn').addClass('animated fadeInUp bounce appear')
+                    }, 1000);
+                    setTimeout(function () {
+                        $('.sc3').addClass('animated fadeInUp bounce appear')
+                    }, 1100);
+                }
                 /*setTimeout(function(){
                  $('.page3bg').addClass('scaling')
                  }, 1500);*/
@@ -82,25 +84,27 @@ $(document).ready(function() {
             }
 
             if (index == 4){
-                $('.tt2').addClass('animated fadeInDown appear');
-                setTimeout(function(){
-                    $('.st1').addClass('appear')
-                }, 300);
-                setTimeout(function(){
-                    $('.st2').addClass('appear')
-                }, 600);
-                setTimeout(function(){
-                    $('.st3').addClass('appear')
-                }, 900);
-                setTimeout(function(){
-                    $('.st4').addClass('appear')
-                }, 1200);
-                setTimeout(function(){
-                    $('.btn4').addClass('animated fadeInUp appear')
-                }, 1500);
-                setTimeout(function(){
-                    $('.sc4').addClass('animated fadeInUp appear')
-                }, 1600);
+                if ($(window).width() > 1000) {
+                    $('.tt2').addClass('animated fadeInDown appear');
+                    setTimeout(function () {
+                        $('.st1').addClass('appear')
+                    }, 300);
+                    setTimeout(function () {
+                        $('.st2').addClass('appear')
+                    }, 600);
+                    setTimeout(function () {
+                        $('.st3').addClass('appear')
+                    }, 900);
+                    setTimeout(function () {
+                        $('.st4').addClass('appear')
+                    }, 1200);
+                    setTimeout(function () {
+                        $('.btn4').addClass('animated fadeInUp appear')
+                    }, 1500);
+                    setTimeout(function () {
+                        $('.sc4').addClass('animated fadeInUp appear')
+                    }, 1600);
+                }
                 /*$('.infogr1').delay(100).fadeIn(600);
                  $('.infogr2').delay(350).fadeIn(600);
                  $('.infogr3').delay(470).fadeIn(600);
@@ -108,16 +112,19 @@ $(document).ready(function() {
             }
 
             if (index == 5) {
-                $('.title5').addClass('animated fadeInDown appear');
-                setTimeout(function(){
-                    $('.text5').addClass('appear')
-                }, 300);
-                setTimeout(function(){
-                    $('.btn').addClass('animated fadeInUp appear')
-                }, 600);
-                setTimeout(function(){
-                    $('.sc5').addClass('animated fadeInUp appear')
-                }, 700);
+                if ($(window).width() > 1000) {
+                    $('.title5').addClass('animated fadeInDown appear');
+                    setTimeout(function () {
+                        $('.text5').addClass('appear')
+                    }, 300);
+                    setTimeout(function () {
+                        $('.btn').addClass('animated fadeInUp appear')
+                    }, 600);
+                    setTimeout(function () {
+                        $('.sc5').addClass('animated fadeInUp appear')
+                    }, 700);
+                    }
+
                 /*$('.text').addClass('appear');*/
                 /*$('.title').delay(100).fadeIn(1600);
                  $('.text').delay(1000).fadeIn(1600);
