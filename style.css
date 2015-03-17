@@ -1,4 +1,6 @@
- a {
+/*---------------------------------------------------STYLE.CSS--------------------------------------------------------*/
+
+a {
     text-decoration: none;
 }
 
@@ -248,28 +250,28 @@
 
 }
 .widthtitle{
-    width: 100%;/*60*/
+    width: 60%;/*60*/
     margin-top: 15%;
 }
  .widthtitle1{
 
-     width: 100%;/*0*/
+     width: 0;/*0*/
      margin-top: 0;
  }
 
 .infogr {
 
     opacity: 1;
-    width: 42%;/*15*/
+    width: 15%;/*15*/
     height: 100%;
     /*padding-right: 4%;*/
     float: left;
    /*border: solid 1px #fff;*/
     transition: 2s;
-    margin-left: 5%;/*2*/
+    margin-left: 2%;/*2*/
     margin-top: 1%;
 }
-.infograffirst{margin-left: 10%}/*6*/
+.infograffirst{margin-left: 6%}/*6*/
 
 .sdviginfo{margin-left:10%}
 
@@ -329,7 +331,7 @@ nav ul li{
     position: absolute;
     width: 10%;
     height: 10%;
-    top:90%;
+    top:81%;
     left:45%;
     /*margin-top:25%;*/
 
@@ -342,36 +344,45 @@ nav ul li{
 
 }
  .sc3{
-    /* margin-left:78%;*/
+
+     top:91%;
+     left:45%;
     opacity: 1;
 }
-.sc4{opacity: 0;}
+.sc4{
+    opacity: 0;
+    top:91%;
+}
 .sc5{
 
-    margin-top:6%;
-    margin-left:78%;
+    top:91%;
+    left:80%;
     opacity: 0;
 }
 .sc6{
     opacity: 0;
-    margin-top:1%;
-    margin-left:46.5%;
+    top: 91%;
+    left:46%;
+
 }
 .sc8{
-    margin-left: 44%;
+    top:91%;
+    left:44%;
 }
 .sc9{
-    position: absolute;
+
     z-index: 3000;
-    margin-top: 45%;
+    top:91%;
 
 }
 .sc2{
-    position: absolute;
+
     z-index: 3000;
-    margin-top: 125%;
+
 
 }
 .sc7{ margin-top:6%}
+
+
 
 

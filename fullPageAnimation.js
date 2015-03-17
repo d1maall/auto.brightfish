@@ -231,12 +231,6 @@ $(document).ready(function() {
         }
     });
 
-
-    /*$('body').on('click','#test-popup-no', function(){
-        alert('Ваш запрос был отправлен! Мы скоро свяжемся с вами.');
-        return true;
-    });*/
-
 });
 
     

@@ -1,3 +1,5 @@
+/*---------------------------------------------------BUTTONS.CSS-------------------------------------------------------*/
+
 .btn {
     opacity: 1;
     -webkit-border-radius: 0;
@@ -59,17 +61,17 @@
     color: #FFCC01;
     font-size: 1.1em;
     padding: 10px 10px 10px 10px;
-    border: solid #fff 2px;/*1*/
+    border: solid #fff 1px;/*1*/
     text-decoration: none;
-    margin-left: 25%;/*10*/
+    margin-left: 10%;/*10*/
     /*margin-right: 40%;*/
-    width: 45%;/*28*/
+    width: 28%;/*28*/
     text-align: center;
     cursor: pointer;
     transition: 0.5s ease-in-out;
     background-color: inherit;
-    margin-top: 55%;/*5*/
-    opacity: 1;
+    margin-top: 5%;/*5*/
+    opacity: 0;
 
 }
 .btnpage1{
