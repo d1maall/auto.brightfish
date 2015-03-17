@@ -14,7 +14,7 @@
     .bgpic {
         background-image: url(./img/mobail-768/shelby.jpg);
     }
-    .page3bg {
+    /*.page3bg {
         background-image: url(./img/mobail-768/splash3.jpg);
     }
     .page4bg {
@@ -40,7 +40,7 @@
     }
     .bg3 {
         background-image: url(./img/mobail-768/right.jpg);
-    }
+    }*/
     /*МЕНЮ*/
 
     /*СЛАЙД 2*/
@@ -77,22 +77,37 @@
     .page3bg {
         background-image: url(./img/board-1280/splash3.jpg);
         background-position:center bottom ;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .page4bg {
         background-image: url(./img/board-1280/splash2.jpg);
-        background-position:center bottom ;
-    }
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        background-size: cover;    }
     .page5bg {
         background-image: url(./img/board-1280/colorsplash.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .page6bg {
         background-image: url(./img/board-1280/bumbum2.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .page7bg {
         background-image: url(./img/board-1280/drops.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .page8bg {
         background-image: url(./img/board-1280/splash4.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .bg1 {
         background-image: url(./img/board-1280/left.jpg);
