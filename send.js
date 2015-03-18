@@ -42,7 +42,6 @@ $(document).ready(function() {
     });
 })
 
-
 function send() {
     //var name = $('.name').val();
     //var email = $('.email').val();
