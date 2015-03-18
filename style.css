@@ -1,4 +1,10 @@
 /*---------------------------------------------------STYLE.CSS--------------------------------------------------------*/
+@import "http://webfonts.ru/import/roboto.css";
+@import "http://webfonts.ru/import/vremenasans.css";
+@import "http://webfonts.ru/import/ubuntu.css";
+@import "http://webfonts.ru/import/clearsans.css";
+@import "http://webfonts.ru/import/introcondensed.css";
+@import "http://webfonts.ru/import/fira.css";
 
 a {
     text-decoration: none;
@@ -1322,12 +1328,6 @@ body {
     outline: none;
 }
 /*--------------------------------------------------- text -------------------------------------------------------*/
-@import "http://webfonts.ru/import/roboto.css";
-@import "http://webfonts.ru/import/vremenasans.css";
-@import "http://webfonts.ru/import/ubuntu.css";
-@import "http://webfonts.ru/import/clearsans.css";
-@import "http://webfonts.ru/import/introcondensed.css";
-@import "http://webfonts.ru/import/fira.css";
 
 .title{
     opacity: 1;
