@@ -1411,7 +1411,8 @@ body {
     font-weight: 200;
     font-family: 'Clear Sans';
     letter-spacing: 0.02em;
-    text-transform: uppercase;  color: fff;
+    text-transform: uppercase;
+    color: #fff;
 }
 .titleform {
     width: 100% ;
@@ -1475,7 +1476,8 @@ body {
     font-weight: 200;
     font-family: 'Clear Sans';
     letter-spacing: 0.02em;
-    text-transform: uppercase;  color: fff;
+    text-transform: uppercase;
+    color: #fff;
     float: left;
 
     /* background-color: #0b0b0b;
