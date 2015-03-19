@@ -169,7 +169,7 @@
         <div class="leftpart c1" >
             <div class="bg1"></div>
             <div class="slidercontent slidercontentleft title2 ">
-                <div class="icon1 ic1"><img  src="./img/car2.svg" alt=""></div>
+                <div class="icon1 "><img  src="./img/car2.svg" alt=""></div>
                 <div class = "slide2titleleft">автомобили</div>
                 <div class="textsl2 textsl2left">Выделите свой автомобиль из потока и подчеркните его индивидуальность.
                     Кроме того, уникальный автомобиль теряет привлекательность для угонщиков.
@@ -198,7 +198,7 @@
         <div class="centerpart c2">
             <div class="bg2"></div>
             <div class="slidercontent slidercontentcenter title2">
-                <div class="icon1 ic2"><img class="svg" src="./img/moto1.svg" alt=""></div>
+                <div class="icon1 "><img class="svg" src="./img/moto1.svg" alt=""></div>
                 <div class="slide2titlecenter">мотоциклы</div>
                 <div class="textsl2 textsl2center">Сегодня именно аэрография стала альтернативным способом сделать байк
                     индивидуальным и ярким. Для истинного байкера – это возможность создать неповторимый и эксклюзивный
@@ -228,7 +228,7 @@
         <div class="rightpart c3">
             <div class="bg3"></div>
             <div class="slidercontent slidercontentright title2">
-                <div class="icon1 ic3"><img class="svg" src="./img/helmet2.svg" alt=""></div>
+                <div class="icon1 "><img class="svg" src="./img/helmet2.svg" alt=""></div>
                 <div class="slide2titleright">шлемы и прочее</div>
                 <div class="textsl2 textsl2right">С помощью аэрографии можно расписать любой предмет: мотоциклетный или
                     хоккейный шлем, любимый велосипед, защиту и всё что Вы пожелаете!
@@ -302,7 +302,7 @@
                 <div class="icon"><img  src="./img/airbrush.svg" alt="airbrush"></div>
                 <div class="text1">Современное оборудование и материалы</div>
             </div>
-            <div class="infogr st3 sdviginfo">
+            <div class="infogr st3 ">
                 <div class="icon"><img class="sdvig" src="./img/garant.svg" alt="garant"></div>
                 <div class="text1">До 3-х лет гарантии на работу</div>
             </div>
@@ -430,7 +430,26 @@
             <div class="titlegal">
                 Наши работы<div class=" cherta">&mdash;</div>
             </div>
-            <div class="fotorama" data-width="600" data-max-width="100%" data-nav="thumbs">
+            <div class="galtext">
+                Больше работ вы можете посмотреть на наших страницах в <a href="#social">социальных сетях</a>,
+                а так же в нашем <a class = "popup-with-form" href="#form12">офисе</a>.
+                <form id="form12" class="white-popup-block mfp-hide">
+                    <div class="titleform">Посмотреть больше работ</div>
+                    <ul>
+                        <li>
+                            <input class="name" name="name" type="text" placeholder="Имя"><div class="dialogue dialogue-name">text goes here</div>
+                        </li>
+                        <li>
+                            <input class="email" name="email" type="text" placeholder="E-mail"><div class="dialogue dialogue-email">text goes here</div>
+                        </li>
+                        <li>
+                            <input class="phone" name="phone" type="tel" placeholder="Телефон"><div class="dialogue dialogue-phone">text goes here</div>
+                        </li>
+                    </ul>
+                    <div class="knopka" onclick="send()">Отправить</div>
+                </form>
+            </div>
+            <div class="fotorama galsl" data-width="600" data-max-width="100%" data-nav="thumbs">
                 <img src="./img/auto/preview/1autogal.jpg"/>
                 <img src="./img/auto/preview/2autogal.jpg"/>
                 <img src="./img/auto/preview/3autogal.jpg"/>
@@ -557,13 +576,11 @@
             $(".c3").toggleClass("c3hover");
             $(".slidercontentleft").toggleClass("slidercontentup");
             $(".slide2titleleft").toggleClass("slide2title");
-            $(".ic1").toggleClass("icon1up");
+
             setTimeout(function () {
                 $(".slide2titleleft").toggleClass("slide2titledisappear");
             }, 500);
-            setTimeout(function () {
-                $(".ic1").toggleClass("icon1disappear");
-            }, 500);
+
             setTimeout(function () {
                 $(".textsl2left").toggleClass("textsl2appear");
             }, 0);
@@ -585,10 +602,7 @@
             $(".c3").toggleClass("c3hover");
             $(".slidercontentcenter").toggleClass("slidercontentup");
             $(".slide2titlecenter").toggleClass("slide2title");
-            $(".ic2").toggleClass("icon1up");
-            setTimeout(function () {
-                $(".ic2").toggleClass("icon1disappear");
-            }, 500);
+
             setTimeout(function () {
                 $(".slide2titlecenter").toggleClass("slide2titledisappear");
             }, 500);
@@ -613,10 +627,7 @@
             $(".c3").toggleClass("c3hovered");
             $(".slidercontentright").toggleClass("slidercontentup");
             $(".slide2titleright").toggleClass("slide2title");
-            $(".ic3").toggleClass("icon1up");
-            setTimeout(function () {
-                $(".ic3").toggleClass("icon1disappear");
-            }, 500);
+
             setTimeout(function () {
                 $(".slide2titleright").toggleClass("slide2titledisappear");
             }, 500);

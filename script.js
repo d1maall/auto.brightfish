@@ -167,6 +167,7 @@ $(document).ready(function() {
                 }
             }
 
+
             if (index == 9) {
                 $('.navbar').addClass("onmap");
             }
@@ -212,6 +213,7 @@ $(document).ready(function() {
                 $('.btn6').removeClass('animated fadeInUp appear');
                 $('.sc6').removeClass('animated fadeInUp appear');
             }
+
             if (index == 9) {
                 $('.navbar').removeClass("onmap");
             }

@@ -62,7 +62,7 @@
 
 
     /*СКРОЛ*/
-    .sc2{display:none;}
+    .sc2{display:block;}
 
 }
 
@@ -112,12 +112,21 @@
     }
     .bg1 {
         background-image: url(./img/board-1280/left.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .bg2 {
         background-image: url(./img/board-1280/center.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .bg3 {
         background-image: url(./img/board-1280/right.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     /*МЕНЮ*/
@@ -145,11 +154,16 @@
     }
     .slidercontent{
         margin-top: 35vh;
+        height: 30vh;
     }
+
 
     .icon1{
         width: 100%;
         margin-left: 0;
+        height: 50%;
+        display: block;
+        float:none;
     }
     .slidercontentup {
         margin-top: 20%;
@@ -160,6 +174,30 @@
     .icon1disappear {
         display: block;
     }
+
+    .icon1 img{
+
+        width:70%;
+        height:100%;
+    }
+    .slide2titleleft {
+        display: block;
+        float: none;
+        margin-top: 0;
+    }
+
+    .slide2titlecenter {
+        display: block;
+        float: none;
+        margin-top: 0;
+    }
+
+    .slide2titleright {
+        display: block;
+        float: none;
+        margin-top: 0;
+    }
+    .slide2mobtitle{display:none;}
     /*СЛАЙД 3*/
     .lefthalf {
         width: 60%;
@@ -170,7 +208,7 @@
     .widthtitle1{
         width: 60%;
     }
-    .slide2mobtitle{display:none;}
+
     /*ГАЛЕРЕЯ*/
 
     /*ПРАЙС*/
