@@ -2,115 +2,13 @@
  * Created by dmitry on 18.03.15.
  */
 
-/* send.js */
-function validateEmail(email) {
-    var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    return re.test(email);
-}
-function validatePhone(phone) {
-    var re = /^(?=.*[0-9])[- +()0-9]+$/;
-    return re.test($('.phone').val());
-}
-$(document).ready(function() {
-    $(".name").focusout(function() {
-        if ($('.name').val() == "") {
-            $(".dialogue-name").addClass("dialogue-alert");
-            $(".dialogue-name").text("Введите имя");
-        };
-        if ($('.name').val() != "") {
-            $(".dialogue-name").removeClass("dialogue-alert");
-        }
-    });
-    $(".email").focusout(function() {
-        if (($('.email').val() == "") || (!validateEmail($('.email').val()))) {
-            $(".dialogue-email").addClass("dialogue-alert");
-            $(".dialogue-email").text('Введите e-mail');
-        };
-        if (($('.email').val() != "") && (validateEmail($('.email').val()))) {
-            $(".dialogue-email").removeClass("dialogue-alert");
-        }
-    });
-    $(".phone").focusout(function() {
-        if (($('.phone').val() == "") || (!validatePhone($('.phone').val()))) {
-            $(".dialogue-phone").addClass("dialogue-alert");
-            $(".dialogue-phone").text("Введите номер телефона");
-        };
-        if (($('.phone').val() != "") && (validatePhone($('.phone').val()))) {
-            $(".dialogue-phone").removeClass("dialogue-alert");
-        }
-    });
-})
-function send() {
-    $('titleform').text(validatePhone($('.phone').val()));
-
-    if ($('.name').val() == "") {
-        $(".dialogue-name").addClass("dialogue-alert");
-        $(".dialogue-name").text("Введите имя");
-        var namebool = false;
-    }
-    else {
-        var namebool = true;
-        if ($(".dialogue-name").hasClass("dialogue-alert")) {
-            $(".dialogue-name").removeClass("dialogue-alert")
-        }
-    }
-
-    if (($('.email').val() == "")||(!validateEmail($('.email').val()))) {
-        $(".dialogue-email").addClass("dialogue-alert");
-        $(".dialogue-email").text('Введите e-mail');
-        var emailbool = false;
-    }
-    else {
-        var emailbool = true;
-        if ($(".dialogue-email").hasClass("dialogue-alert")) {
-            $(".dialogue-email").removeClass("dialogue-alert")
-        }
-    }
-
-    if (($('.phone').val() == "")||(!validatePhone($('.phone').val()))) {
-        $(".dialogue-phone").addClass("dialogue-alert");
-        $(".dialogue-phone").text("Введите номер телефона");
-        var phonebool = false;
-    }
-    else {
-        var phonebool = true;
-        if ($(".dialogue-phone").hasClass("dialogue-alert")) {
-            $(".dialogue-phone").removeClass("dialogue-alert")
-        }
-    }
-
-    yaCounter26346798.reachGoal('AUTO');
-
-    if ((namebool) && (emailbool) && (phonebool)) {
-
-        $.post(
-            "./mail.php",
-            {
-                name: $('.name').val(),
-                phone: $('.phone').val(),
-                email: $('.email').val()
-            }
-        );
-        //alert('Имя: ' + name + '\n' + 'Почта: ' + email + '\n' + 'Телефон: ' + phone );
-        alert("Ваша заявка получена. Мы скоро свяжемся с вами.")
-        $('.name').val('');
-        $('.email').val('');
-        $('.phone').val('');
-        $.magnificPopup.close();
-    }
-    else {
-        console.log("error");
-    }
-
-}
-
 /*fullPageAnimation.js*/
 $(document).ready(function() {
     $('#fullpage').fullpage({
-        /*sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'darksalmon', '#ccddff'],*/
         anchors: ['main', 'what-we-do', 'our-techniques', 'why-us','giftcard','how-we-work','gallery', 'prices', 'contacts','social'],
         menu: '',
         scrollingSpeed: 500,
+        'touchSensitivity': 3,
         afterRender: function(){
             $('.popup-ajax').magnificPopup({
                 type: 'ajax',
@@ -155,6 +53,9 @@ $(document).ready(function() {
                         $(".dialogue-name").removeClass("dialogue-alert");
                         $(".dialogue-email").removeClass("dialogue-alert");
                         $(".dialogue-phone").removeClass("dialogue-alert");
+                        $(".name").removeClass("input-alert");
+                        $(".email").removeClass("input-alert");
+                        $(".phone").removeClass("input-alert");
                         $('.name').val('');
                         $('.email').val('');
                         $('.phone').val('');
@@ -180,13 +81,6 @@ $(document).ready(function() {
                         $('.sc3').addClass('animated fadeInUp bounce appear')
                     }, 1100);
                 }
-                /*setTimeout(function(){
-                 $('.page3bg').addClass('scaling')
-                 }, 1500);*/
-                /*$('.text').addClass('appear');*/
-                /*$('.title').delay(100).fadeIn(1600);
-                 $('.text').delay(1000).fadeIn(1600);
-                 $('.btn').delay(1800).fadeIn(3600);*/
             }
 
             if (index == 4){
@@ -325,6 +219,114 @@ $(document).ready(function() {
     });
 
 });
+
+/* send.js */
+function validateEmail(email) {
+    var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+}
+function validatePhone(phone) {
+    var re = /^(?=.*[0-9])[- +()0-9]+$/;
+    return re.test($('.phone').val());
+}
+$(document).ready(function() {
+    $(".name").focusout(function() {
+        if ($('.name').val() == "") {
+            $(".dialogue-name").addClass("dialogue-alert");
+            $(".name").addClass("input-alert");
+            $(".dialogue-name").text("Введите имя");
+        };
+        if ($('.name').val() != "") {
+            $(".dialogue-name").removeClass("dialogue-alert");
+            $(".name").removeClass("input-alert");
+        }
+    });
+    $(".email").focusout(function() {
+        if (($('.email').val() == "") || (!validateEmail($('.email').val()))) {
+            $(".dialogue-email").addClass("dialogue-alert");
+            $(".email").addClass("input-alert");
+            $(".dialogue-email").text('Введите e-mail');
+        };
+        if (($('.email').val() != "") && (validateEmail($('.email').val()))) {
+            $(".dialogue-email").removeClass("dialogue-alert");
+            $(".email").removeClass("input-alert");
+        }
+    });
+    $(".phone").focusout(function() {
+        if (($('.phone').val() == "") || (!validatePhone($('.phone').val()))) {
+            $(".dialogue-phone").addClass("dialogue-alert");
+            $(".phone").addClass("input-alert");
+            $(".dialogue-phone").text("Введите номер телефона");
+        };
+        if (($('.phone').val() != "") && (validatePhone($('.phone').val()))) {
+            $(".dialogue-phone").removeClass("dialogue-alert");
+            $(".phone").removeClass("input-alert");
+        }
+    });
+})
+function send() {
+    $('titleform').text(validatePhone($('.phone').val()));
+
+    if ($('.name').val() == "") {
+        $(".dialogue-name").addClass("dialogue-alert");
+        $(".dialogue-name").text("Введите имя");
+        var namebool = false;
+    }
+    else {
+        var namebool = true;
+        if ($(".dialogue-name").hasClass("dialogue-alert")) {
+            $(".dialogue-name").removeClass("dialogue-alert")
+        }
+    }
+
+    if (($('.email').val() == "")||(!validateEmail($('.email').val()))) {
+        $(".dialogue-email").addClass("dialogue-alert");
+        $(".dialogue-email").text('Введите e-mail');
+        var emailbool = false;
+    }
+    else {
+        var emailbool = true;
+        if ($(".dialogue-email").hasClass("dialogue-alert")) {
+            $(".dialogue-email").removeClass("dialogue-alert")
+        }
+    }
+
+    if (($('.phone').val() == "")||(!validatePhone($('.phone').val()))) {
+        $(".dialogue-phone").addClass("dialogue-alert");
+        $(".dialogue-phone").text("Введите номер телефона");
+        var phonebool = false;
+    }
+    else {
+        var phonebool = true;
+        if ($(".dialogue-phone").hasClass("dialogue-alert")) {
+            $(".dialogue-phone").removeClass("dialogue-alert")
+        }
+    }
+
+    yaCounter26346798.reachGoal('AUTO');
+
+    if ((namebool) && (emailbool) && (phonebool)) {
+
+        $.post(
+            "./mail.php",
+            {
+                name: $('.name').val(),
+                phone: $('.phone').val(),
+                email: $('.email').val()
+            }
+        );
+        //alert('Имя: ' + name + '\n' + 'Почта: ' + email + '\n' + 'Телефон: ' + phone );
+        alert("Ваша заявка получена. Мы скоро свяжемся с вами.")
+        $('.name').val('');
+        $('.email').val('');
+        $('.phone').val('');
+        $.magnificPopup.close();
+    }
+    else {
+        console.log("error");
+    }
+
+}
 
 /*gallery.js*/
 $(document).ready(function() {
@@ -604,10 +606,4 @@ function init () {
             iconImageSize: [51, 77], // размеры картинки
             iconImageOffset: [-25, -77] // смещение картинки
         }));
-
-    document.getElementById('destroyButton').onclick = function () {
-        // Для уничтожения используется метод destroy.
-        myMap.destroy();
-    };
-
 }

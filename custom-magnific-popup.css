@@ -157,3 +157,14 @@ input {
     box-sizing: border-box;
 }
 
+input:focus {
+    outline: none;
+    border: 1px solid lightskyblue;
+    box-shadow: 0 0 5px lightskyblue;
+}
+
+.input-alert {
+    border: 1px solid pink;
+    box-shadow: 0 0 5px pink;
+}
+
