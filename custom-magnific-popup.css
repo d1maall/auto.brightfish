@@ -129,6 +129,10 @@ fieldset {
     box-sizing: border-box;
 }
 
+.knopka:hover {
+    cursor: pointer;
+}
+
 .btnpage1 a {
     text-decoration: none;
 }

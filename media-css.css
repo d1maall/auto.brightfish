@@ -222,6 +222,7 @@
         width: 60%;
     }
     /*КНОПКИ*/
+
     .btnpage1{
         margin-left: 39%;
         margin-right: 39%;
@@ -229,9 +230,9 @@
         font-size: 20%;
         border: solid #fff 1px;
         width: 24%;
-        margin-top: 5%;
-
+        margin-top: 0%;
     }
+
     .topleft{
          margin-top: 33%;
      }

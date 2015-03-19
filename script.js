@@ -269,37 +269,43 @@ function send() {
 
     if ($('.name').val() == "") {
         $(".dialogue-name").addClass("dialogue-alert");
+        $(".name").addClass("input-alert");
         $(".dialogue-name").text("Введите имя");
         var namebool = false;
     }
     else {
         var namebool = true;
         if ($(".dialogue-name").hasClass("dialogue-alert")) {
-            $(".dialogue-name").removeClass("dialogue-alert")
+            $(".dialogue-name").removeClass("dialogue-alert");
+            $(".name").removeClass("input-alert");
         }
     }
 
     if (($('.email').val() == "")||(!validateEmail($('.email').val()))) {
         $(".dialogue-email").addClass("dialogue-alert");
+        $(".email").addClass("input-alert");
         $(".dialogue-email").text('Введите e-mail');
         var emailbool = false;
     }
     else {
         var emailbool = true;
         if ($(".dialogue-email").hasClass("dialogue-alert")) {
-            $(".dialogue-email").removeClass("dialogue-alert")
+            $(".dialogue-email").removeClass("dialogue-alert");
+            $(".email").removeClass("input-alert");
         }
     }
 
     if (($('.phone').val() == "")||(!validatePhone($('.phone').val()))) {
         $(".dialogue-phone").addClass("dialogue-alert");
+        $(".phone").addClass("input-alert");
         $(".dialogue-phone").text("Введите номер телефона");
         var phonebool = false;
     }
     else {
         var phonebool = true;
         if ($(".dialogue-phone").hasClass("dialogue-alert")) {
-            $(".dialogue-phone").removeClass("dialogue-alert")
+            $(".dialogue-phone").removeClass("dialogue-alert");
+            $(".phone").removeClass("input-alert");
         }
     }
 
