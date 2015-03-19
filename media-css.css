@@ -6,6 +6,7 @@
     display:block;
 }
 .sc2{display:none;}
+.slide2mobtitle{display:block;}
 
 @media only screen and (min-width: 640px) {
     /*Здесь стили более разумных, но все еще мобильных устройств. Android, iPhone  и так далее.*/
@@ -169,6 +170,7 @@
     .widthtitle1{
         width: 60%;
     }
+    .slide2mobtitle{display:none;}
     /*ГАЛЕРЕЯ*/
 
     /*ПРАЙС*/
@@ -184,6 +186,8 @@
         margin-left: 10%;
         margin-right: 10%;
         width: 80%;
+        height: 30%;
+        margin-bottom: 0;
 
 
     }

@@ -160,6 +160,7 @@
 
 <!------------------------------------ SLIDE 2 -------------------------------------------------------->
     <div class="section page2 threecolumns" data-anchor="what-we-do">
+        <div class="slide2mobtitle">Мы наносим аэрографию на:</div>
         <div class="leftpart c1" >
             <div class="bg1"></div>
             <div class="slidercontent slidercontentleft title2 ">
@@ -573,90 +574,92 @@
 
 <!------------------------------------ END OF FULL PAGE AEROGRAPHY  ------------------------------------>
 <script type="text/javascript">
-    $(".c1").hover(function(){
-        $(".c1").toggleClass("c1hovered");
-        $(".bg1").toggleClass("bghovered");
-        $(".c2").toggleClass("c2hover");
-        $(".c3").toggleClass("c3hover");
-        $(".slidercontentleft").toggleClass("slidercontentup");
-        $(".slide2titleleft").toggleClass("slide2title");
-        $(".ic1").toggleClass("icon1up");
-        setTimeout(function(){
-            $(".slide2titleleft").toggleClass("slide2titledisappear");
-        }, 500);
-        setTimeout(function(){
-            $(".ic1").toggleClass("icon1disappear");
-        }, 500);
-        setTimeout(function(){
-            $(".textsl2left").toggleClass("textsl2appear");
-        }, 0);
-        setTimeout(function(){
-            $(".textsl2left").toggleClass("textsl2visible animated fadeInUp");
-        }, 500);
-        setTimeout(function(){
-            $(".btn2left").toggleClass("btn2display");
-        }, 0);
-        setTimeout(function(){
-            $(".btn2left").toggleClass("btn2appear animated fadeInUp");
-        }, 1000);
-        //console.log("div was hovered");
-    });
-    $(".c2").hover(function(){
-        $(".c1").toggleClass("c1hover");
-        $(".bg2").toggleClass("bghovered");
-        $(".c2").toggleClass("c2hovered");
-        $(".c3").toggleClass("c3hover");
-        $(".slidercontentcenter").toggleClass("slidercontentup");
-        $(".slide2titlecenter").toggleClass("slide2title");
-        $(".ic2").toggleClass("icon1up");
-        setTimeout(function(){
-            $(".ic2").toggleClass("icon1disappear");
-        }, 500);
-        setTimeout(function(){
-            $(".slide2titlecenter").toggleClass("slide2titledisappear");
-        }, 500);
-        setTimeout(function(){
-            $(".textsl2center").toggleClass("textsl2appear");
-        }, 0);
-        setTimeout(function(){
-            $(".textsl2center").toggleClass("textsl2visible animated fadeInUp");
-        }, 500);
-        setTimeout(function(){
-            $(".btn2center").toggleClass("btn2display");
-        }, 0);
-        setTimeout(function(){
-            $(".btn2center").toggleClass("btn2appear animated fadeInUp");
-        }, 1000);
-        //console.log("div was hovered");
-    });
-    $(".c3").hover(function(){
-        $(".c1").toggleClass("c1hover");
-        $(".bg3").toggleClass("bghovered");
-        $(".c2").toggleClass("c2hover");
-        $(".c3").toggleClass("c3hovered");
-        $(".slidercontentright").toggleClass("slidercontentup");
-        $(".slide2titleright").toggleClass("slide2title");
-        $(".ic3").toggleClass("icon1up");
-        setTimeout(function(){
-            $(".ic3").toggleClass("icon1disappear");
-        }, 500);
-        setTimeout(function(){
-            $(".slide2titleright").toggleClass("slide2titledisappear");
-        }, 500);
-        setTimeout(function(){
-            $(".textsl2right").toggleClass("textsl2appear");
-        }, 0);
-        setTimeout(function(){
-            $(".textsl2right").toggleClass("textsl2visible animated fadeInUp");
-        }, 500);
-        setTimeout(function(){
-            $(".btn2right").toggleClass("btn2display");
-        }, 0);
-        setTimeout(function(){
-            $(".btn2right").toggleClass("btn2appear animated fadeInUp");
-        }, 1000);
-        //console.log("div was hovered");
-    });
+    if ($(window).width() > 1000) {
+        $(".c1").hover(function () {
+            $(".c1").toggleClass("c1hovered");
+            $(".bg1").toggleClass("bghovered");
+            $(".c2").toggleClass("c2hover");
+            $(".c3").toggleClass("c3hover");
+            $(".slidercontentleft").toggleClass("slidercontentup");
+            $(".slide2titleleft").toggleClass("slide2title");
+            $(".ic1").toggleClass("icon1up");
+            setTimeout(function () {
+                $(".slide2titleleft").toggleClass("slide2titledisappear");
+            }, 500);
+            setTimeout(function () {
+                $(".ic1").toggleClass("icon1disappear");
+            }, 500);
+            setTimeout(function () {
+                $(".textsl2left").toggleClass("textsl2appear");
+            }, 0);
+            setTimeout(function () {
+                $(".textsl2left").toggleClass("textsl2visible animated fadeInUp");
+            }, 500);
+            setTimeout(function () {
+                $(".btn2left").toggleClass("btn2display");
+            }, 0);
+            setTimeout(function () {
+                $(".btn2left").toggleClass("btn2appear animated fadeInUp");
+            }, 1000);
+            //console.log("div was hovered");
+        });
+        $(".c2").hover(function () {
+            $(".c1").toggleClass("c1hover");
+            $(".bg2").toggleClass("bghovered");
+            $(".c2").toggleClass("c2hovered");
+            $(".c3").toggleClass("c3hover");
+            $(".slidercontentcenter").toggleClass("slidercontentup");
+            $(".slide2titlecenter").toggleClass("slide2title");
+            $(".ic2").toggleClass("icon1up");
+            setTimeout(function () {
+                $(".ic2").toggleClass("icon1disappear");
+            }, 500);
+            setTimeout(function () {
+                $(".slide2titlecenter").toggleClass("slide2titledisappear");
+            }, 500);
+            setTimeout(function () {
+                $(".textsl2center").toggleClass("textsl2appear");
+            }, 0);
+            setTimeout(function () {
+                $(".textsl2center").toggleClass("textsl2visible animated fadeInUp");
+            }, 500);
+            setTimeout(function () {
+                $(".btn2center").toggleClass("btn2display");
+            }, 0);
+            setTimeout(function () {
+                $(".btn2center").toggleClass("btn2appear animated fadeInUp");
+            }, 1000);
+            //console.log("div was hovered");
+        });
+        $(".c3").hover(function () {
+            $(".c1").toggleClass("c1hover");
+            $(".bg3").toggleClass("bghovered");
+            $(".c2").toggleClass("c2hover");
+            $(".c3").toggleClass("c3hovered");
+            $(".slidercontentright").toggleClass("slidercontentup");
+            $(".slide2titleright").toggleClass("slide2title");
+            $(".ic3").toggleClass("icon1up");
+            setTimeout(function () {
+                $(".ic3").toggleClass("icon1disappear");
+            }, 500);
+            setTimeout(function () {
+                $(".slide2titleright").toggleClass("slide2titledisappear");
+            }, 500);
+            setTimeout(function () {
+                $(".textsl2right").toggleClass("textsl2appear");
+            }, 0);
+            setTimeout(function () {
+                $(".textsl2right").toggleClass("textsl2visible animated fadeInUp");
+            }, 500);
+            setTimeout(function () {
+                $(".btn2right").toggleClass("btn2display");
+            }, 0);
+            setTimeout(function () {
+                $(".btn2right").toggleClass("btn2appear animated fadeInUp");
+            }, 1000);
+            //console.log("div was hovered");
+        });
+    }
 
     $(".price1").hover(function() {
         $(".abg1").toggleClass("priceonhover");
