@@ -291,10 +291,7 @@
     }
     .text5{ opacity: 0;font-size: 1.3em}
     .title5{opacity: 0}
-    .appear {
-        opacity: 1;
-        transition: 2s;
-    }
+
     /*КНОПКИ*/
 
     .btnpage1{
@@ -349,6 +346,10 @@
     }
     .sc5{
         opacity: 0;
+    }
+    .appear {
+        opacity: 1;
+        transition: 2s;
     }
 }
 
