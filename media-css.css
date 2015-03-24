@@ -52,11 +52,14 @@
     .titleway{font-size: 3em;font-weight: 300;}
     .way-mob{font-size: 2em;margin-left: 10%;}
     .btn6{font-size: 2em;margin-top: 80%;}
-    .sc7{display: block;}
+    .sc7{display: block;width:10%;}
     .titlegal .cherta {display:block;}
     .titlegal{font-size: 2.5em;}
     .galtext{font-size: 1.5em;}
-    .galsl{margin-right:0;margin-left: 10%;margin-top: 20%; }
+    .galsl{margin-right:0;margin-left: 10%;margin-top: 20%;}
+    .titleprice{font-size: 3em;}
+    .price-mob{font-size: 1.4em;}
+    .btn8{width:40%;margin-left: 27%;}
 }
 @media only screen and (min-width: 1000px) {
 

@@ -429,14 +429,14 @@ nav ul li{
     padding: 10px 5px 10px 5px;
     border: solid #fff 1px;
     text-decoration: none;
-    margin-left: 15%;
+    margin-left: 12%;
     /*margin-right: 40%;*/
     width: 70%;
     text-align: center;
     cursor: pointer;
     transition: 0.5s ease-in-out;
     background-color: inherit;
-    margin-top: 115%;
+    margin-top: -5%;
 }
 
 .appear {
@@ -958,7 +958,7 @@ The white stripes in the hamburger button
     color:#FFFFff;
 }
 .price-mob ul {margin-left: 2%;margin-top:10%;margin-bottom: 10%;}
-.price-mob li {margin-top: 2%;font-size: 1em;}
+.price-mob li {margin-top: 2%;font-size: 0.9em;font-weight: 100;font-family: "Clear Sans", sans-serif;}
 
 .pp8{
 
