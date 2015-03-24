@@ -237,7 +237,7 @@ $(document).ready(function() {
             $(".dialogue-name").addClass("dialogue-alert");
             $(".name").addClass("input-alert");
             $(".dialogue-name").text("Введите имя");
-        };
+        }
         if ($('.name').val() != "") {
             $(".dialogue-name").removeClass("dialogue-alert");
             $(".name").removeClass("input-alert");
@@ -248,7 +248,7 @@ $(document).ready(function() {
             $(".dialogue-email").addClass("dialogue-alert");
             $(".email").addClass("input-alert");
             $(".dialogue-email").text('Введите e-mail');
-        };
+        }
         if (($('.email').val() != "") && (validateEmail($('.email').val()))) {
             $(".dialogue-email").removeClass("dialogue-alert");
             $(".email").removeClass("input-alert");
@@ -259,13 +259,13 @@ $(document).ready(function() {
             $(".dialogue-phone").addClass("dialogue-alert");
             $(".phone").addClass("input-alert");
             $(".dialogue-phone").text("Введите номер телефона");
-        };
+        }
         if (($('.phone').val() != "") && (validatePhone($('.phone').val()))) {
             $(".dialogue-phone").removeClass("dialogue-alert");
             $(".phone").removeClass("input-alert");
         }
     });
-})
+});
 function send() {
     $('titleform').text(validatePhone($('.phone').val()));
 
@@ -324,7 +324,7 @@ function send() {
             }
         );
         //alert('Имя: ' + name + '\n' + 'Почта: ' + email + '\n' + 'Телефон: ' + phone );
-        alert("Ваша заявка получена. Мы скоро свяжемся с вами.")
+        alert("Ваша заявка получена. Мы скоро свяжемся с вами.");
         $('.name').val('');
         $('.email').val('');
         $('.phone').val('');

@@ -454,9 +454,7 @@
                     }
 
                     return false;
-                };
-
-
+                }
                 function mouseMove(evt) {
                     evt = evt.originalEvent;
                     isTouch && (evt = evt.changedTouches[0]);
@@ -467,8 +465,7 @@
                     });
 
                     setting.onDrag.call(ele, evt);
-                };
-
+                }
                 function mouseUp(evt) {
                     evt = evt.originalEvent;
                     isTouch && (evt = evt.changedTouches[0]);
@@ -477,8 +474,7 @@
 
                     $D.unbind("mouseup touchend", mouseUp);
                     $D.unbind("mousemove touchmove", mouseMove);
-                };
-
+                }
                 // ignore drag drop on text field;
                 $E.find("iframe, form, input, textarea, .ignore-drag")
                     .each(function() {
