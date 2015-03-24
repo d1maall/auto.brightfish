@@ -218,11 +218,11 @@ nav ul li{
 .sc5{
 
     top:91%;
-    left:80%;
+    /*l 80*/
     opacity:1;
 }
 .sc6{
-    opacity: 0;
+    opacity: 1;
     top: 91%;
     left:46%;
 
@@ -249,9 +249,9 @@ nav ul li{
 
 .btn {
     opacity: 1;
-    -webkit-border-radius: 0;
+    /*-webkit-border-radius: 0;
     -moz-border-radius: 0;
-    border-radius: 0px;
+    border-radius: 0px;*/
     font-family: 'Roboto';
     font-weight: 200;
     color: #FFCC01;
@@ -276,27 +276,46 @@ nav ul li{
 .btn a:active {
 
 }
-
-.btn6 {
-    -webkit-border-radius: 0;
+.btn5 {
+    opacity: 1;
+    /*-webkit-border-radius: 0;
     -moz-border-radius: 0;
-    border-radius: 0px;
+    border-radius: 0px;*/
     font-family: 'Roboto';
-    font-weight: 200;
+    font-weight: 300;
     color: #FFCC01;
-    font-size: 1.4em;
+    font-size: 1em;
     padding: 10px 10px 10px 10px;
-    border: solid #fff 1px;
+    border: solid #ffffff 1px;
     text-decoration: none;
-    margin-left: 40%;
-    margin-right: 40%;
-    width: 20%;
+    margin-left: 10%;
+    width: 75%;/*28*/
     text-align: center;
     cursor: pointer;
     transition: 0.5s ease-in-out;
     background-color: inherit;
-    margin-top: 3%;
-    opacity: 0;
+    margin-top: 7%;/*5*/
+}
+.btn6 {
+    /*-webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;*/
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #FFCC01;
+    font-size: 1em;
+    padding: 10px 10px 10px 10px;
+    border: solid #fff 1px;
+    text-decoration: none;
+    margin-left: 10%;
+    /*margin-right: 40%;*/
+    width: 70%;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    background-color: inherit;
+    margin-top: 90%;
+    opacity: 1;
 }
 
 .btn4 {
@@ -304,15 +323,15 @@ nav ul li{
      -moz-border-radius: 0;
      border-radius: 0px;*/
     font-family: 'Roboto';
-    font-weight: 200;
+    font-weight: 400;
     color: #FFCC01;
-    font-size: 1.1em;
-    padding: 10px 10px 10px 10px;
+    font-size: 0.8em;
+    padding: 5px 10px 5px 10px;
     border: solid #fff 1px;/*1*/
     text-decoration: none;
-    margin-left: 30%;/*10*/
+    margin-left: 20%;/*10*/
     /*margin-right: 40%;*/
-    width: 40%;/*28*/
+    width: 50%;/*28*/
     text-align: center;
     cursor: pointer;
     transition: 0.5s ease-in-out;
@@ -351,9 +370,9 @@ nav ul li{
 }
 
 .btn8 {
-    -webkit-border-radius: 0;
+   /* -webkit-border-radius: 0;
     -moz-border-radius: 0;
-    border-radius: 0;
+    border-radius: 0;*/
     font-family: 'Roboto';
     font-weight: 200;
     color: #FFCC01;
@@ -361,14 +380,14 @@ nav ul li{
     padding: 10px 5px 10px 5px;
     border: solid #fff 1px;
     text-decoration: none;
-    margin-left: 38%;
-    margin-right: 40%;
-    width: 20%;
+    margin-left: 15%;
+    /*margin-right: 40%;*/
+    width: 70%;
     text-align: center;
     cursor: pointer;
     transition: 0.5s ease-in-out;
     background-color: inherit;
-    margin-top: 1%;
+    margin-top: 115%;
 }
 
 .appear {
@@ -477,19 +496,21 @@ nav ul li{
 
 }
 .galsl{
-    margin-top:-10%;
+    margin-top:10%;
     margin-right: 10%;
-    float: right;
+   /* float: right;*/
+    width: 100%;
 }
 .galtext{
-    width:30%;
+    width:80%;/*30*/
     float:left;
     color: #F3F3F3;
     margin-left: 6%;
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: "Clear Sans";
     letter-spacing: 0.02em;
     font-weight: 200;
+    margin-bottom: 1%;
 }
 .galtext a{
     text-decoration: none;
@@ -536,16 +557,16 @@ nav ul li{
 }*/
 .titlegal{
     /*padding-top: 5%;*/
-    margin-top: 8%;
+    margin-top: 17%;
     color: #FFCC01;
     text-align: left;
-    font-size: 3em;
-    font-weight: 200;
+    font-size: 1.5em;
+    font-weight: 300;
     font-family: 'Roboto';
     letter-spacing: 0.02em;
     text-transform: uppercase;
     margin-left: 6%;
-    height: 20%;
+    /*height: 20%;*/
     background: transparent;
 }
 
@@ -881,6 +902,14 @@ The white stripes in the hamburger button
     /*border: 1px solid #ffcc01;*/
     height: 55%;
 }
+.price-mob{
+    width: 100%;
+    /*border: 1px solid #ffcc01;*/
+    height: 55%;
+    color:#FFFFff;
+}
+.price-mob ul {margin-left: 2%;margin-top:10%;margin-bottom: 10%;}
+.price-mob li {margin-top: 2%;font-size: 1em;}
 
 .pp8{
 
@@ -991,10 +1020,10 @@ The white stripes in the hamburger button
 .titleprice{
 
     /*padding-top: 5%;*/
-    margin-top: 7%;
+    margin-top: 17%;
     color: #FFCC01;
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 200;
     font-family: 'Roboto';
     letter-spacing: 0.02em;
@@ -1004,7 +1033,7 @@ The white stripes in the hamburger button
 
 /*--------------------------------------------------- price -------------------------------------------------------*/
 
-.pricedetails {
+/*.pricedetails {
     position: absolute;
     text-align: center;
 }
@@ -1016,7 +1045,7 @@ The white stripes in the hamburger button
 .priceimagehovered {
     opacity: 0.3;
     transition: 0.2s ease-in-out;
-}
+}*/
 /*--------------------------------------------------- slider -------------------------------------------------------*/
 
 
@@ -1332,10 +1361,10 @@ body {
     margin-top: 0%;/*10*/
     color: #e7e7e7;
     text-align: left ;
-    font-size: 1.3em;
-    font-weight: 300;
+    font-size: 0.7em;
+    font-weight: 400;
     font-family: "Clear Sans";
-    margin-right: 5%;
+
     display: inline-block;
 }
 .titlepage1 {
@@ -1423,7 +1452,7 @@ body {
     transition: 0.3s;
 }
 
-.transh{
+/*.transh{
     padding-left: 5%;
     padding-top: 5%;
     width: 10%;
@@ -1437,7 +1466,7 @@ body {
     float: left;
 
     /* background-color: #0b0b0b;
-     opacity: 0.5;*/
+     opacity: 0.5;
 }
 .transhblock a{text-decoration: none;color: #FFFFff}
 .transhblock a:visited {
@@ -1446,7 +1475,7 @@ body {
 
 .transhblock a:focus {
     outline: none;
-}
+}*/
 .iconfirst{width: 50%;float: right; margin-top: -20%;}
 .iconfirst img{ width: 40%;height: 40%}
 .transhblock{
@@ -1465,7 +1494,7 @@ body {
     width: 100%;*/
     color: #FFCC01;
     text-align: left;
-    font-size: 3em;
+    font-size: 1.5em;
     font-weight: 200;
     font-family: 'Roboto';
     letter-spacing: 0.02em;
@@ -1480,7 +1509,7 @@ body {
     padding-right: 10%;
     color: #e7e7e7;
     text-align: justify ;
-    font-size: 2em;/*1.3*/
+    font-size: 1em;/*1.3*/
     font-weight: 300;
     line-height: 1.7em;
     font-family: "Clear Sans";
@@ -1532,6 +1561,21 @@ body {
     height: 100%;
     position: absolute;
 }
+.way-mob{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: #FFFFff;
+    font-size: 1.4em;
+    font-family: "Clear Sans";
+    font-weight: 200;
+    margin-left: 5%;
+
+
+}
+.way-mob ol {margin-top: 2%;}
+.way-mob li {margin-top: 5%;}
+/*.way-mob li :first-child {margin-top: 3%}*/
 .icon2{
     width:100%;
     color: #fff;
@@ -1563,15 +1607,15 @@ body {
 }
 .titleway{
     /*padding-top: 5%;*/
-    margin-top: 7%;
+    margin-top: 17%;
     color: #FFCC01;
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 200;
     font-family: 'Roboto';
     letter-spacing: 0.02em;
     text-transform: uppercase;
-    opacity: 0;
+    opacity: 1;/*0*/
 }
 .bw1{opacity: 0;transition: 0.2s ease-in-out;}
 .bw2{opacity: 0;transition: 0.2s ease-in-out;}

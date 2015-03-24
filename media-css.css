@@ -7,7 +7,12 @@
 }
 .btn2mob {display: block}
 .slide2mobtitle{display:block;}
-
+.waycontainer{display:none;}
+.way-mob{display:block;}
+.sc7{display: none;}
+.titlegal .cherta {display:none;}
+.prbigblock{display: none;}
+.price-mob{display: block;}
 
 @media only screen and (min-width: 320px) {
     /*Здесь стили более разумных, но все еще мобильных устройств. Android, iPhone  и так далее.*/
@@ -38,7 +43,20 @@
     .text{
         font-size: 1.7em;
     }
-    .btn{ font-size: 1.6em;}
+    .btn{font-size: 1.6em;}
+    .text1{font-size: 1.7em;}
+    .btn4{padding: 10px 10px 10px 10px;width: 40%;font-size: 1em;margin-left: 30%;}
+    .title5{font-size: 3em;}
+    .text5{font-size: 2em;}
+    .btn5{width:50%;font-size: 1.5em;margin-left: 25%;}
+    .titleway{font-size: 3em;font-weight: 300;}
+    .way-mob{font-size: 2em;margin-left: 10%;}
+    .btn6{font-size: 2em;margin-top: 80%;}
+    .sc7{display: block;}
+    .titlegal .cherta {display:block;}
+    .titlegal{font-size: 2.5em;}
+    .galtext{font-size: 1.5em;}
+    .galsl{margin-right:0;margin-left: 10%;margin-top: 20%; }
 }
 @media only screen and (min-width: 1000px) {
 
@@ -110,7 +128,8 @@
     .menu2visible{
         display:block;
     }
-
+    .waycontainer{display:block;}
+    .way-mob{display:none;}
 
 
 
@@ -198,7 +217,7 @@
     .infogr {
         width: 15%;
         height: 100%;
-        /*margin-left: 2%;*/
+        margin-left: 5%;
         opacity: 0;
         /*margin-top: 1%;*/
 
@@ -219,9 +238,12 @@
 
 
     /*ГАЛЕРЕЯ*/
-
+    .galtext{width:30%;}
+    .galsl{float:right;width:50%;margin-left: 5%;margin-top: -10%;margin-right: 0;}
+    .titlegal{margin-top: 8%;font-weight: 200;}
     /*ПРАЙС*/
-
+    .prbigblock{display: block;}
+    .price-mob{display: none;}
     /*КАРТА*/
 
     /*СЛАЙД 10*/
@@ -260,7 +282,8 @@
         opacity: 0;
     }
     .text1 {
-
+        font-weight: 200;
+        font-size: 1.2em;
         margin-top: 10%;
     }
 
@@ -269,8 +292,9 @@
         margin-top: 0;
         width: 60%;
     }
-    .text5{ opacity: 0;font-size: 1.3em}
-    .title5{opacity: 0}
+    .text5{ opacity: 0;font-size: 1.3em;font-weight: 200;}
+    .title5{opacity: 0;}
+    .titleway{margin-top: 7%;font-weight: 200;opacity: 0;}
 
     /*КНОПКИ*/
 
@@ -283,7 +307,7 @@
         width: 34%;/*24*/
         margin-top: 0%;
     }
-
+    .btn5{width:40%;margin-left: 10%;font-weight: 200;opacity: 0;}
     .topleft{
          margin-top: 33%;
      }
@@ -299,7 +323,7 @@
 
     }
     .btn {
-        width: 30%;
+        width: 40%;
         opacity: 0;
     }
     .topcenter{margin-top: 12%;}
@@ -309,8 +333,10 @@
         margin-left: 10%;
         width: 30%;
         margin-top: 5%;
+        font-weight: 200;
         opacity: 0;
     }
+    .btn6{opacity: 0;margin-top:5%;width:26%;margin-left: 36%;font-size: 1.2em;}
     /*СКРОЛ*/
 
     .sc2{
@@ -325,6 +351,10 @@
         opacity: 0;
     }
     .sc5{
+        left:80%;
+        opacity: 0;
+    }
+    .sc6{
         opacity: 0;
     }
     .appear {
@@ -443,7 +473,7 @@
     /*СЛАЙД 4*/
 
     /*ГАЛЕРЕЯ*/
-
+    .galsl{margin-top: -7%;}
     /*ПРАЙС*/
 
     /*КАРТА*/
@@ -454,6 +484,10 @@
     .textsl2{
         font-size: 0.7em;
     }
+    .text{font-size: 2em;}
+    .title5{font-size: 4em;}
+    .text5{font-size:2.5em;}
+    .titleway{font-size: 4em;}
     /*КНОПКИ*/
 
     /*СКРОЛ*/

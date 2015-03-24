@@ -114,7 +114,7 @@ $(document).ready(function() {
                         $('.text5').addClass('appear')
                     }, 300);
                     setTimeout(function () {
-                        $('.btn').addClass('animated fadeInUp appear')
+                        $('.btn5').addClass('animated fadeInUp appear')
                     }, 600);
                     setTimeout(function () {
                         $('.sc5').addClass('animated fadeInUp appear')
@@ -194,7 +194,7 @@ $(document).ready(function() {
             if (index == 5) {
                 $('.title5').removeClass('animated fadeInDown appear');
                 $('.text5').removeClass('appear');
-                $('.btn').removeClass('animated fadeInUp appear');
+                $('.btn5').removeClass('animated fadeInUp appear');
                 $('.sc5').removeClass('animated fadeInUp appear');
             }
             if (index == 6) {
