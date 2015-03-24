@@ -8,7 +8,7 @@
     position: absolute;
 }
 .page1 {
-    font-size: 7em;
+    font-size: 3.5em;/*7*/
     text-align: center;
 }
 .bgpic {
@@ -19,43 +19,43 @@
     background-size: cover;
     width: 100%;
     height: 100%;
-    opacity: 0.2;
+    opacity: 0.4;
 }
 .page3bg {
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 .page4bg {
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 .page5bg {
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 .page6bg {
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0.4;
+    opacity: 0.6;
 }
 .page7bg {
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 .page8bg {
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0.3;
+    opacity: 0.4;
 }
 .content1 {
     position: absolute;
@@ -102,7 +102,7 @@
 
 }
 .vertical{
-    /*border: solid 1px #fff*/;
+    /*border: solid 1px #fff*/
     height:50%;/*30*/
 
 }
@@ -255,7 +255,7 @@ nav ul li{
     font-family: 'Roboto';
     font-weight: 200;
     color: #FFCC01;
-    font-size: 1.3em;
+    font-size: 1em;
     padding: 10px 10px 10px 10px;
     border: solid #ffffff 1px;
     text-decoration: none;
@@ -384,7 +384,7 @@ nav ul li{
     font-family: 'Clear Sans';
     font-weight: 400;/**/
     color: #FFCC01;
-    font-size: 20%;/*55*/
+    font-size: 10%;/*55*/
     padding-top: 10px;
     padding-bottom: 10px;
     border: solid #FFf 2px;/*1*/
@@ -1287,12 +1287,12 @@ body {
     margin-left:10%;
     /*padding-left: 10%;
     padding-right: 10%;/*10*/
-    margin-top: 13%;
+    margin-top: 17%;
     /*padding-top: 10%;
     width: 100%;*/
     color: #FFCC01;
     text-align: left;
-    font-size: 2.7em;/*2.7*/
+    font-size: 1.2em;/*2.7*/
     font-weight: 300;/*200*/
     font-family: 'Roboto';
     letter-spacing: 0.02em;
@@ -1309,7 +1309,7 @@ body {
     padding-right: 10%;*/
     color: #e7e7e7;
     text-align: left ;/*justify*/
-    font-size: 2em;/*1*/
+    font-size: 0.8em;/*1*/
     font-weight: 300;
     line-height: 1.7em;
     font-family: "Clear Sans";
@@ -1363,7 +1363,7 @@ body {
     /* width: 50%;*/
     /*height: 40%;*/
     text-align: center;/*center*/
-    font-size: 0.3em;
+    font-size: 0.2em;/*0.3*/
     font-weight: 200;
     font-family: 'Clear Sans';
     letter-spacing: 0.02em;
@@ -1491,8 +1491,8 @@ body {
     margin-left:10%;
     margin-top: 13%;
     color: #FFCC01;
-    text-align: left;
-    font-size: 0.5em;
+    text-align: center;
+    font-size: 0.3em;
     font-weight: 200;
     font-family: 'Roboto';
     letter-spacing: 0.02em;

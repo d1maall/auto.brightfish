@@ -8,64 +8,38 @@
 .btn2mob {display: block}
 .slide2mobtitle{display:block;}
 
-@media only screen and (min-width: 640px) {
-    /*Здесь стили более разумных, но все еще мобильных устройств. Android, iPhone  и так далее.*/
 
-    /*ФОНОВЫЕ ИЗОБРАЖЕНИЯ*/
+@media only screen and (min-width: 320px) {
+    /*Здесь стили более разумных, но все еще мобильных устройств. Android, iPhone  и так далее.*/
     .bgpic {
         background-image: url(./img/mobail-768/shelby.jpg);
     }
-    /*.page3bg {
-        background-image: url(./img/mobail-768/splash3.jpg);
-    }
-    .page4bg {
-        background-image: url(./img/mobail-768/splash2.jpg);
-    }
-    .page5bg {
-        background-image: url(./img/mobail-768/colorsplash.jpg);
-    }
-    .page6bg {
-        background-image: url(./img/mobail-768/bumbum2.jpg);
-    }
-    .page7bg {
-        background-image: url(./img/mobail-768/drops.jpg);
-    }
-    .page8bg {
-        background-image: url(./img/mobail-768/splash4.jpg);
-    }
-    .bg1 {
-        background-image: url(./img/mobail-768/left.jpg);
-    }
-    .bg2 {
-        background-image: url(./img/mobail-768/center.jpg);
-    }
-    .bg3 {
-        background-image: url(./img/mobail-768/right.jpg);
-    }*/
-    /*МЕНЮ*/
-
-    /*СЛАЙД 2*/
-
-    /*СЛАЙД 4*/
-
-    /*ГАЛЕРЕЯ*/
-
-    /*ПРАЙС*/
-
-    /*КАРТА*/
-
-    /*СЛАЙД 10*/
-
-    /*ТЕКСТ*/
-
-    /*КНОПКИ*/
-
-
-    /*СКРОЛ*/
     .sc2{display:block;}
 
-}
 
+}
+@media only screen and (min-width: 750px) {
+    .page1{
+        font-size: 7em;
+    }
+    .slide2mobtitle{
+        font-size: 0.5em;
+    }
+    .title2{
+        font-size: 0.3em;
+    }
+    .btn2{
+        font-size: 20%;
+    }
+    .sc2{ top:87%;}
+    .title{
+        font-size: 2.8em;
+    }
+    .text{
+        font-size: 1.7em;
+    }
+    .btn{ font-size: 1.6em;}
+}
 @media only screen and (min-width: 1000px) {
 
     /*Планшеты в режиме portrait.*/
@@ -136,6 +110,12 @@
     .menu2visible{
         display:block;
     }
+
+
+
+
+
+
     /*СЛАЙД 2*/
     .c1{
         width: 33%;
@@ -218,14 +198,14 @@
     .infogr {
         width: 15%;
         height: 100%;
-        margin-left: 2%;
+        /*margin-left: 2%;*/
         opacity: 0;
         /*margin-top: 1%;*/
 
     }
     .infograffirst{margin-left: 6%}
 
-    .sdviginfo{margin-left:10%}
+    /*.sdviginfo{margin-left:10%}*/
     .icon{
         width:100%;
         display: block;
@@ -295,12 +275,12 @@
     /*КНОПКИ*/
 
     .btnpage1{
-        margin-left: 39%;
-        margin-right: 39%;
+        margin-left: 32%;
+        margin-right: 32%;
         font-weight: 100;
         font-size: 20%;
         border: solid #fff 1px;
-        width: 24%;
+        width: 34%;/*24*/
         margin-top: 0%;
     }
 
@@ -471,7 +451,9 @@
     /*СЛАЙД 10*/
 
     /*ТЕКСТ*/
-
+    .textsl2{
+        font-size: 0.7em;
+    }
     /*КНОПКИ*/
 
     /*СКРОЛ*/
