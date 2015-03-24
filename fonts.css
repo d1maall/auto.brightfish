@@ -1,0 +1,235 @@
+/*---------------ROBOTO-----------------*/
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Regular'), local('Roboto-Regular'), url('http://64424.selcdn.ru/webfont/roboto/roboto-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Thin'), local('Roboto-Thin'), url('font/roboto-thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light'), local('Roboto-Light'), url('font/roboto-light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium'), local('Roboto-Medium'), url('http://64424.selcdn.ru/webfont/roboto/roboto-medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+/*
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Regular'), local('Roboto-Regular'), url('http://64424.selcdn.ru/webfont/roboto/roboto-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Thin'), local('Roboto-Thin'), url('http://64424.selcdn.ru/webfont/roboto/roboto-thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light'), local('Roboto-Light'), url('http://64424.selcdn.ru/webfont/roboto/roboto-light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium'), local('Roboto-Medium'), url('http://64424.selcdn.ru/webfont/roboto/roboto-medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold'), local('Roboto-Bold'), url('http://64424.selcdn.ru/webfont/roboto/roboto-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Black'), local('Roboto-Black'), url('http://64424.selcdn.ru/webfont/roboto/roboto-black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Italic'), local('Roboto-Italic'), url('http://64424.selcdn.ru/webfont/roboto/roboto-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url('http://64424.selcdn.ru/webfont/roboto/roboto-bolditalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url('http://64424.selcdn.ru/webfont/roboto/roboto-lightitalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url('http://64424.selcdn.ru/webfont/roboto/roboto-mediumitalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url('http://64424.selcdn.ru/webfont/roboto/roboto-thinitalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url('http://64424.selcdn.ru/webfont/roboto/roboto-blackitalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url('http://64424.selcdn.ru/webfont/roboto/roboto-boldcondensed.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: local('Roboto Condensed Bold Italic'), local('RobotoCondensed-BoldItalic'), url('http://64424.selcdn.ru/webfont/roboto/roboto-boldcondenseditalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url('http://64424.selcdn.ru/webfont/roboto/roboto-condensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: local('Roboto Condensed Italic'), local('RobotoCondensed-Italic'), url('http://64424.selcdn.ru/webfont/roboto/roboto-condenseditalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'), url('robotocondensed-light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: local('Roboto Condensed Light Italic'), local('RobotoCondensed-LightItalic'), url('robotocondensed-lightitalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'Roboto Slab';
+    src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url('http://64424.selcdn.ru/webfont/roboto/robotoslab-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto Slab';
+    src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'), url('http://64424.selcdn.ru/webfont/roboto/robotoslab-bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto Slab';
+    src: local('Roboto Slab Light'), local('RobotoSlab-Light'), url('http://64424.selcdn.ru/webfont/roboto/robotoslab-light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto Slab';
+    src: local('Roboto Slab Thin'), local('RobotoSlab-Thin'), url('http://64424.selcdn.ru/webfont/roboto/robotoslab-thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}*/
+/*---------------CLEAR SANS-----------------*/
+@font-face {
+    font-family: 'Clear Sans';
+    src: local('Clear Sans Regular'), local('ClearSans'), url('font/clearsans-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Clear Sans';
+    src: local('Clear Sans Thin Regular'), local('ClearSans-Thin'), url('font/clearsans-thin.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Clear Sans';
+    src: local('Clear Sans Light Regular'), local('ClearSans-Light'), url('font/clearsans-light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Clear Sans';
+    src: local('Clear Sans Medium Regular'), local('ClearSans-Medium'), url('font/clearsans-medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+/*
+@font-face {
+    font-family: 'Clear Sans';
+    src: local('Clear Sans Regular'), local('ClearSans'), url('http://64424.selcdn.ru/webfont/clearsans/clearsans-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Clear Sans';
+    src: local('Clear Sans Thin Regular'), local('ClearSans-Thin'), url('http://64424.selcdn.ru/webfont/clearsans/clearsans-thin.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Clear Sans';
+    src: local('Clear Sans Light Regular'), local('ClearSans-Light'), url('http://64424.selcdn.ru/webfont/clearsans/clearsans-light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Clear Sans';
+    src: local('Clear Sans Medium Regular'), local('ClearSans-Medium'), url('http://64424.selcdn.ru/webfont/clearsans/clearsans-medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Clear Sans';
+    src: local('Clear Sans Bold'), local('ClearSans-Bold'), url('http://64424.selcdn.ru/webfont/clearsans/clearsans-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Clear Sans';
+    src: local('Clear Sans Italic'), local('ClearSans-Italic'), url('http://64424.selcdn.ru/webfont/clearsans/clearsans-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Clear Sans';
+    src: local('Clear Sans Medium Italic'), local('ClearSans-MediumItalic'), url('http://64424.selcdn.ru/webfont/clearsans/clearsans-mediumitalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Clear Sans';
+    src: local('Clear Sans Bold Italic'), local('ClearSans-BoldItalic'), url('http://64424.selcdn.ru/webfont/clearsans/clearsans-bolditalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+*/

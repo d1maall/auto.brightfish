@@ -1,6 +1,6 @@
 /*---------------------------------------------------STYLE.CSS--------------------------------------------------------*/
-@import "http://webfonts.ru/import/roboto.css";
-@import "http://webfonts.ru/import/clearsans.css";
+@import "fonts.css";
+/*@import "http://webfonts.ru/import/clearsans.css";*/
 
 .lefthalf{
     width: 100%;
