@@ -1,4 +1,4 @@
-/*------------------------------------------------MEDIA-CSS.CSS--------------------------------------------------------*/
+
 .menu2visible{
     display:none;
 }
@@ -9,17 +9,18 @@
 .slide2mobtitle{display:block;}
 .waycontainer{display:none;}
 .way-mob{display:block;}
-.sc7{display: none;}
+.sc7{width: 20%;}
 .titlegal .cherta {display:none;}
 .prbigblock{display: none;}
 .price-mob{display: block;}
 
 @media only screen and (min-width: 320px) {
-    /*Здесь стили более разумных, но все еще мобильных устройств. Android, iPhone  и так далее.*/
+
     .bgpic {
         background-image: url(./img/mobail-768/shelby.jpg);
     }
     .sc2{display:block;}
+    .titlegal{font-size: 2.5em;margin-top: 17%;color: #FFCC01;font-family: Roboto;}
 
 
 }
@@ -54,18 +55,22 @@
     .btn6{font-size: 2em;margin-top: 80%;}
     .sc7{display: block;width:10%;}
     .titlegal .cherta {display:block;}
-    .titlegal{font-size: 2.5em;}
+    .titlegal{font-size: 2.5em;margin-left: 6%}
     .galtext{font-size: 1.5em;}
     .galsl{margin-right:0;margin-left: 10%;margin-top: 20%;}
     .titleprice{font-size: 3em;}
-    .price-mob{font-size: 1.4em;}
+    .price-mob{font-size: 1.5em;}
     .btn8{width:40%;margin-left: 27%;}
+    .mapblock{top:20%;}
+    .titmap{font-size: 3em;font-weight: 300;}
+    .textmap{font-size: 1.5em;}
+    .contbl{font-size: 2em;}
+    .soctext{width: 50%;}
+    .js .menu_main a {font-size: 2em;}
+    .btn2{margin-top: 80%;}
 }
 @media only screen and (min-width: 1000px) {
 
-    /*Планшеты в режиме portrait.*/
-
-    /*ФОНОВЫЕ ИЗОБРАЖЕНИЯ*/
 
     .bgpic {
         background-image: url(./img/board-1280/shelby.jpg);
@@ -135,8 +140,22 @@
     .way-mob{display:none;}
 
 
+    .white-popup-block {
+        background-image: url(./img/splashform.jpg);
+        background-position: right center;
+        background-size:  auto 100%;
+        background-repeat: no-repeat;
+        width: 40%;
+        height: 60%;
+        padding: 3% 3% 3% 3%;
+    }
+    form {
 
-
+        width: 50%;
+        margin-left: 25%;
+    }
+    .knopka{width: 40%;}
+    input {width : 40%;}
 
     /*СЛАЙД 2*/
     .c1{
@@ -247,10 +266,47 @@
     /*ПРАЙС*/
     .prbigblock{display: block;}
     .price-mob{display: none;}
+    .titleprice{margin-top: 8%;}
+    .btn8{margin-top: 2%;width: 24%;margin-left: 35%;}
     /*КАРТА*/
-
+    .map {
+        background-image: url(./img/map1280.jpg);
+        background-position: left center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .mapblock {
+        width: 25%;/*25*/
+        height: 60%;/*60*/
+        top:25%;/*25*/
+        border: 7px solid #ffcc01;/*7*/
+        border-right: none;
+        right:0;
+        left:75%;
+    }
+    .titmap{font-size: 2.5em;font-weight: 200;}
+    .textmap{font-size: 1em;font-weight: 200;}
+    .contbl{font-size: 1.1em;}
     /*СЛАЙД 10*/
+    .socialblock{
+         margin-left: 2% ;
+         margin-top: 9%;
+        width: 15%;
+        height: 45%;
 
+    }
+    .blockicon{
+        width: 100%;/*100*/
+        height:55%;/*55*/
+        margin-top: 10%;/*10*/
+        margin-left: 0;/*0*/
+    }
+    .icon10{
+        width:100%;/*100*/
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .socfirst{margin-left: 15%;}
     /*ТЕКСТ*/
     .titlepage1{
         margin-top: 15%;
@@ -322,12 +378,14 @@
         width: 50%;
         border: solid #FFf 1px;
         margin-top: 5%;
+        padding-top: 10px;
         opacity: 0;
 
     }
     .btn {
         width: 40%;
         opacity: 0;
+        font-weight: 100;
     }
     .topcenter{margin-top: 12%;}
 
@@ -339,7 +397,7 @@
         font-weight: 200;
         opacity: 0;
     }
-    .btn6{opacity: 0;margin-top:5%;width:26%;margin-left: 36%;font-size: 1.2em;}
+    .btn6{opacity: 0;margin-top:5%;width:26%;margin-left: 36%;font-size: 1.2em;font-weight: 100;}
     /*СКРОЛ*/
 
     .sc2{
@@ -367,10 +425,6 @@
 }
 
 @media only screen and (min-width: 1300px) {
-
-    /*Планшеты в режиме landscape, нетбуки, ноутбуки, десктоп.*/
-
-    /*ФОНОВЫЕ ИЗОБРАЖЕНИЯ*/
 
     .bgpic {
         background-image: url(./img/notebook-1680/shelby.jpg);
@@ -404,36 +458,12 @@
         background-image: url(./img/notebook-1680/right.jpg);
     }
 
-    /*МЕНЮ*/
-
-    /*СЛАЙД 2*/
-
-    /*СЛАЙД 3*/
-
-
-    /*СЛАЙД 4*/
-
-    /*ГАЛЕРЕЯ*/
-
-    /*ПРАЙС*/
-
-    /*КАРТА*/
-
-    /*СЛАЙД 10*/
-
-    /*ТЕКСТ*/
-
-    /*КНОПКИ*/
-
-    /*СКРОЛ*/
+    .map {
+        background-image: url(./img/map1680.jpg);}
 
 }
 
 @media only screen and (min-width: 1900px) {
-
-    /*Десктоп с большими разрешениями, телевизоры.*/
-
-    /*ФОНОВЫЕ ИЗОБРАЖЕНИЯ*/
 
     .bgpic {
         background-image: url(./img/tv-2048/shelby.jpg);
@@ -466,24 +496,12 @@
     .bg3 {
         background-image: url(./img/tv-2048/right.jpg);
     }
-    /*МЕНЮ*/
 
-    /*СЛАЙД 2*/
-
-    /*СЛАЙД 3*/
-
-
-    /*СЛАЙД 4*/
-
-    /*ГАЛЕРЕЯ*/
     .galsl{margin-top: -7%;}
-    /*ПРАЙС*/
 
-    /*КАРТА*/
+    .map {
+        background-image: url(./img/map2048.jpg);}
 
-    /*СЛАЙД 10*/
-
-    /*ТЕКСТ*/
     .textsl2{
         font-size: 0.7em;
     }
@@ -491,9 +509,13 @@
     .title5{font-size: 4em;}
     .text5{font-size:2.5em;}
     .titleway{font-size: 4em;}
-    /*КНОПКИ*/
-
-    /*СКРОЛ*/
+    .titleprice{font-size: 4em;}
+    .pricetext{font-size: 1.5em;}
+    .titmap{font-weight: 300;}
+    .textmap{font-size: 1.2em;}
+    .contbl{font-size: 1.5em;}
+    .mapblock{border: 12px solid #ffcc01;}
+    .menu li a{font-size: 1.3em;}
 
 
 }
