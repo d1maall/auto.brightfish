@@ -68,13 +68,13 @@ $(document).ready(function() {
                 width: '90%',
                 height: '60%',
                 nav: 'thumbs',
-                allowfullscreen: true
+                allowfullscreen: true,
+                arrows: 'always'
             });
             // 2. Get the API object.
             var fotorama = $customFotorama.data('fotorama');
             $('.fotorama__stage__shaft').click(function(){
                 fotorama.requestFullScreen();
-
             });
         },
         afterLoad: function(anchorLink, index) {
