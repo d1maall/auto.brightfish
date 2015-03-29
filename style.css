@@ -1425,3 +1425,7 @@ body {
 .bw9{opacity: 0;transition: 0.2s ease-in-out;}
 .bw10{opacity: 0;transition: 0.2s ease-in-out;}
 .bw11{opacity: 0;transition: 0.2s ease-in-out;}
+
+.fotorama__fullscreen-icon{
+    transform: scale(2.0, 2.0);
+}

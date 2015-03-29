@@ -62,6 +62,18 @@ $(document).ready(function() {
                     }
                 }
             });
+            $('.fotorama').on(
+                'fotorama:fullscreenenter', function(){
+                    $.fn.fullpage.setAllowScrolling(false);
+                    $.fn.fullpage.setKeyboardScrolling(false);
+                }
+            );
+            $('.fotorama').on(
+                'fotorama:fullscreenexit', function(){
+                    $.fn.fullpage.setAllowScrolling(true);
+                    $.fn.fullpage.setKeyboardScrolling(true);
+                }
+            );
             // 1. Initialize fotorama manually.
             var $customFotorama = $('.fotorama').fotorama({
                 click: false,
