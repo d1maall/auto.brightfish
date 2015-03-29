@@ -177,7 +177,7 @@ $(document).ready(function() {
                 $('.text').removeClass('appear');
                 $('.btn').removeClass('animated fadeInUp appear');
                 $('.sc3').removeClass('animated fadeInUp appear');
-                $('.page3bg').removeClass('scaling');
+                //$('.page3bg').removeClass('scaling');
             }
 
             if (index == 4) {

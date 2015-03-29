@@ -62,6 +62,20 @@ $(document).ready(function() {
                     }
                 }
             });
+            // 1. Initialize fotorama manually.
+            var $customFotorama = $('.fotorama').fotorama({
+                click: false,
+                width: '90%',
+                height: '60%',
+                nav: 'thumbs',
+                allowfullscreen: true
+            });
+            // 2. Get the API object.
+            var fotorama = $customFotorama.data('fotorama');
+            $('.fotorama__stage__shaft').click(function(){
+                fotorama.requestFullScreen();
+
+            });
         },
         afterLoad: function(anchorLink, index) {
             var loadedSection = $(this);
@@ -178,7 +192,7 @@ $(document).ready(function() {
                 $('.text').removeClass('appear');
                 $('.btn').removeClass('animated fadeInUp appear');
                 $('.sc3').removeClass('animated fadeInUp appear');
-                $('.page3bg').removeClass('scaling');
+                //$('.page3bg').removeClass('scaling');
             }
 
             if (index == 4) {
