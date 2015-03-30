@@ -434,9 +434,7 @@
         opacity: 1;
         transition: 2s;
     }
-    .fotorama__fullscreen-icon__visible {
-            display: block;
-    }
+
     .fotorama__fullscreen-icon{
         transform: scale(2.0, 2.0) !important;
         -webkit-transform: scale(2.0, 2.0) !important;
@@ -448,6 +446,11 @@
         top: 16px;
         right: 16px;
         z-index: 99;
+        display: none;
+    }
+
+    .fotorama__fullscreen-icon__visible {
+        display: block;
     }
 
 }
