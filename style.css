@@ -311,14 +311,14 @@ nav ul li{
     padding: 10px 10px 10px 10px;
     border: solid #fff 1px;
     text-decoration: none;
-    margin-left: 10%;
+    margin-left: 25%;
     /*margin-right: 40%;*/
     width: 50%;
     text-align: center;
     cursor: pointer;
     transition: 0.5s ease-in-out;
     background-color: inherit;
-    margin-top: 85%;
+    margin-top: 75%;
     opacity: 1;
 }
 .btn4 {
@@ -1363,7 +1363,7 @@ body {
     height: 100%;
     position: absolute;
     color: #FFFFff;
-    font-size: 1.4em;
+    font-size: 4em!important;
     font-family: "Clear Sans";
     font-weight: 200;
     margin-left: 5%;
@@ -1425,7 +1425,3 @@ body {
 .bw9{opacity: 0;transition: 0.2s ease-in-out;}
 .bw10{opacity: 0;transition: 0.2s ease-in-out;}
 .bw11{opacity: 0;transition: 0.2s ease-in-out;}
-
-.fotorama__fullscreen-icon{
-    transform: scale(2.0, 2.0);
-}

@@ -21,6 +21,12 @@
     }
     .sc2{display:block;}
     .titlegal{font-size: 2.5em;margin-top: 17%;color: #FFCC01;font-family: Roboto;text-transform: uppercase;}
+    .fotorama__fullscreen-icon{
+        top:15px;
+        right:15px;
+        transform: scale(4.0, 4.0)!important;
+    -webkit-transform: scale(4.0, 4.0)!important;
+    }
 
 
 }
@@ -70,6 +76,12 @@
     .btn2{margin-top: 80%;}
 }
 @media only screen and (min-width: 1000px) {
+    .fotorama__fullscreen-icon{
+        top:1px;
+        right:1px;
+        transform: scale(1.0, 1.0);
+    -webkit-transform:scale(1.0, 1.0);
+    }
 
 
     .bgpic {
