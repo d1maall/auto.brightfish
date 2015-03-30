@@ -441,6 +441,8 @@
         position: absolute;
         background: url("img/cross-24-512.png");
         background-size: 64px 64px;
+        background-position: 0px 0px !important;
+        width: 64px;
         width: 64px;
         height: 64px;
         top: 32px;
